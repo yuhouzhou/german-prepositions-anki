@@ -1,109 +1,94 @@
-# German Prepositions Master Deck (Präpositionen im Deutschen) 🇩🇪
+# German Prepositions Master Suite (Präpositionen im Deutschen) 🇩🇪
 
-A comprehensive, frequency-sorted Anki flashcard deck and dataset covering **320 essential German preposition combinations** across CEFR levels **A1 to C1**.
+A comprehensive, frequency-sorted Anki flashcard suite covering **439 essential German preposition combinations** across CEFR levels **A1 to C1**.
 
-- **218 Verbs with Prepositions** (*Verben mit Präpositionen*)
-- **102 Adjectives & Adverbs with Prepositions** (*Adjektive & Adverbien mit Präpositionen*)
+Organized into **4 distinct subdecks** inside a single unified master package:
 
----
-
-## 🗂️ Deck Structure & Hierarchy
-
-The Anki package is built as a unified hierarchical deck:
-
-```
-German::Prepositions
+```text
+German::Prepositions (439 Cards Total)
 ├── 01 - Verbs with Prepositions (218 cards, sorted V-001 to V-218)
-└── 02 - Adjectives with Prepositions (102 cards, sorted A-001 to A-102)
+├── 02 - Adjectives with Prepositions (102 cards, sorted A-001 to A-102)
+├── 03 - Nouns with Prepositions (68 cards, sorted N-001 to N-068)
+└── 04 - Noun-Verb Idioms (51 cards, sorted I-001 to I-051)
 ```
 
-- **Study together**: Click the top-level **`German::Prepositions`** deck to review verbs and adjectives interleaved.
-- **Study separately**: Click either subdeck to focus strictly on verbs or strictly on adjectives.
-- **Frequency Order**: Cards within each subdeck are ordered from **most frequent to least frequent**.
+---
+
+## 🗂️ How the 4 Subdecks Work
+
+You have complete flexibility in how you study:
+- **Study All Mixed**: Click the parent deck **`German::Prepositions`** to review cards from all 4 categories interleaved.
+- **Study Category-by-Category**: Click any individual subdeck to focus strictly on verbs, adjectives, nouns, or idioms.
+- **Frequency Order**: Cards within each subdeck are ordered sequentially from **highest frequency to lower frequency**.
 
 ---
 
-## 💡 Are There Other Preposition-Related Topics in German?
+## 🔍 The 4 Preposition Domains in This Suite
 
-Yes! In German grammar, prepositions are central to **4 distinct major areas**:
-
-### 1. Verbs with Prepositions (*Verben mit Präpositionen*) — **[Included in Deck]**
-- The verb demands a specific preposition and grammatical case.
-- *Examples*: `warten auf + Akk.`, `abhängen von + Dat.`, `bestehen aus/auf/in`, `sich freuen auf/über`.
-
-### 2. Adjectives & Adverbs with Prepositions (*Adjektive & Adverbien mit Präpositionen*) — **[Included in Deck]**
-- Predicate adjectives and adverbs require fixed prepositions to link to an object.
-- *Examples*: `stolz auf + Akk.`, `zufrieden mit + Dat.`, `interessiert an + Dat.`, `wütend auf/über + Akk.`.
-- *Note on adverbs*: In German, predicate adjectives function identically as adverbs without any inflection (e.g. *Er reagierte wütend auf die Vorwürfe* / *Sie handelten unabhängig von den Vorgaben*).
-
-### 3. Nouns with Prepositions (*Nomen mit Präpositionen*) — **[Natural Next Expansion]**
-- Many abstract nouns govern fixed prepositions. Many derive from verbs or adjectives, but several have their own nuances:
-  - `die Angst vor + Dat.` (*fear of*)
-  - `das Interesse an + Dat.` (*interest in*) / `das Interesse für + Akk.`
-  - `die Hoffnung auf + Akk.` (*hope for*)
-  - `die Freude auf/über + Akk.` (*joy of / about*)
-  - `die Suche nach + Dat.` (*search for*)
-  - `der Zweifel an + Dat.` (*doubt about*)
-  - `die Antwort auf + Akk.` (*answer to*)
-  - `die Kritik an + Dat.` (*criticism of*)
-  - `die Erinnerung an + Akk.` (*memory of*)
-
-### 4. Noun-Verb Idioms with Prepositions (*Nomen-Verb-Verbindungen / Funktionsverbgefüge*)
-- High-frequency formal/idiomatic fixed collocations that replace standard verbs in formal, journalistic, and academic German (frequently tested on B2/C1 exams):
-  - `in Frage kommen` = möglich sein (*to be out of the question / possible*)
-  - `zur Verfügung stehen / stellen` = verfügbar sein / anbieten (*to be available / to provide*)
-  - `in Betracht ziehen` = überlegen (*to take into consideration*)
-  - `unter Beweis stellen` = beweisen (*to prove*)
-  - `Abschied nehmen von + Dat.` = sich verabschieden (*to say goodbye to*)
-  - `in Kraft treten` = gültig werden (*to come into effect*)
-  - `zur Sprache bringen` = ansprechen (*to bring up for discussion*)
-  - `Rücksicht nehmen auf + Akk.` = berücksichtigen (*to be considerate of*)
-
-### 5. Pure Case-Governing Prepositions (*Feste Kasus-Präpositionen*)
-- Prepositions that always dictate the case of any noun that follows:
-  - **Akkusativ only**: *bis, durch, für, gegen, ohne, um, entlang*
-  - **Dativ only**: *aus, bei, mit, nach, seit, von, zu, gegenüber, außer*
-  - **Genitiv only**: *während, trotz, wegen, anstatt, aufgrund, außerhalb, innerhalb, infolge*
-  - **Two-Way Prepositions (*Wechselpräpositionen*)**: *an, auf, hinter, in, neben, über, unter, vor, zwischen* (Dativ for location/static *Wo?*, Akkusativ for direction/movement *Wohin?*).
+| Category | Card Count | Primary Level | Front Prompt | Key Examples |
+|---|---|---|---|---|
+| **01. Verbs with Prepositions** | **218** | A1 – C1 | *What is the preposition and case?* | `warten auf + Akk.`, `bestehen aus/auf/in`, `abhängen von + Dat.` |
+| **02. Adjectives & Adverbs** | **102** | A1 – B2 | *What is the preposition and case?* | `stolz auf + Akk.`, `zufrieden mit + Dat.`, `interessiert an + Dat.` |
+| **03. Nouns with Prepositions** | **68** | A1 – B2 | *What is the preposition and case?* | `die Angst vor + Dat.`, `die Hoffnung auf + Akk.`, `der Zweifel an + Dat.` |
+| **04. Noun-Verb Idioms (NVR)** | **51** | B1 – C1 | *What is the prepositional phrase?* | `in Frage kommen`, `zur Verfügung stehen/stellen`, `in Kauf nehmen` |
 
 ---
 
-## 🎯 Card Design & Features
+## 🏷️ Hierarchical Anki Tags (Exam & Focus Filtering)
 
-1. **Active Recall Cloze**:
-   - The Front side shows the German target word, its English meaning (to disambiguate multiple prepositions), and an authentic example sentence with the preposition covered:
-     ```
-     Er ist sehr stolz [ ... ] seine fleißige Tochter.
-     What is the preposition and case?
-     ```
-2. **Dedicated Cards for Multiple Prepositions**:
-   - For words that take different prepositions with different meanings:
-     - `wütend auf + Akk.` (*furious at a person*) vs. `wütend über + Akk.` (*furious about an event*)
-     - `böse auf + Akk.` (*mad at someone*) vs. `böse über + Akk.` (*upset about a situation*)
-     - `enttäuscht von + Dat.` (*disappointed in someone*) vs. `enttäuscht über + Akk.` (*disappointed about an outcome*)
-     - `bekannt für + Akk.` (*known for a trait*) vs. `bekannt bei + Dat.` (*known among a group*)
-     - `gut in + Dat.` (*good at a subject*) vs. `gut zu + Dat.` (*kind to someone*)
-     - `sich freuen auf + Akk.` (*future*) vs. `sich freuen über + Akk.` (*past/present*)
-     - `bestehen aus + Dat.` (*composed of*) vs. `bestehen auf + Dat.` (*insist on*) vs. `bestehen in + Dat.` (*lie in*)
-3. **Contrast Box**:
-   - The Back side automatically lists all other preposition combinations for that same word family so you can compare nuances instantly.
-4. **Case Color-Coding**:
-   - 🔴 **Akkusativ**: Rose / Red badge
-   - 🔵 **Dativ**: Royal Blue badge
-   - 🟡 **Genitiv**: Amber badge
-   - 🟢 **Nominativ**: Emerald Green badge
-5. **Pronominal Adverbs (Da- / Wo- Compounds)**:
-   - Includes interrogative and demonstrative compounds (*Worauf? • Darauf / Auf wen?*).
+Every note is annotated with hierarchical Anki tags for instant Custom Study / Filtered Decks:
+
+- **Level Tags**: `level::A1`, `level::A2`, `level::B1`, `level::B2`, `level::C1`
+  *(e.g., filter `tag:level::B1` to prep for Goethe-Zertifikat B1)*
+- **Category Tags**: `category::verb`, `category::adjective`, `category::noun`, `category::idiom`
+- **Preposition Tags**: `prep::auf`, `prep::an`, `prep::von`, `prep::zu`, `prep::in`, `prep::vor`, `prep::nach`, `prep::über`, etc.
+  *(e.g., filter `tag:prep::auf` to master all combinations requiring "auf")*
+- **Case Tags**: `case::akk`, `case::dat`, `case::gen`
+  *(e.g., filter `tag:case::dat` to practice all dative prepositions)*
+
+---
+
+## 🎨 Card Layout & Mechanics
+
+### Subdecks 01, 02, 03 (Verbs, Adjectives, Nouns)
+- **Front Side**:
+  - Target word with definite article for nouns (e.g., `warten`, `stolz`, `die Angst`).
+  - English meaning to disambiguate multiple prepositions (e.g., `wütend auf` = *furious at person* vs. `wütend über` = *furious about situation*).
+  - Authentic German example sentence with the preposition cloze-masked: `[ ... ]`.
+  - Sentence English translation hint.
+- **Back Side**:
+  - Revealed combination with color-coded case pill:
+    - 🔴 **Akkusativ**: Rose / Red
+    - 🔵 **Dativ**: Royal Blue
+    - 🟡 **Genitiv**: Amber
+  - Complete German sentence with highlighted preposition.
+  - **Da- / Wo- Compounds** (*Worauf? • Darauf / Auf wen?*).
+  - **Contrast Box**: Displays all other prepositions belonging to the same word family.
+  - Usage advice & grammar nuance notes.
+
+### Subdeck 04 (Noun-Verb Idioms / Nomen-Verb-Verbindungen)
+- **Front Side**:
+  - Full expression header (e.g., `in Frage kommen`).
+  - Equivalent simple verb synonym (e.g., `= möglich sein / denkbar sein`).
+  - English translation (e.g., *to be possible / out of the question*).
+  - Sentence cloze masking the **preposition and noun phrase**:
+    ```
+    "Ein weiterer Aufschub des Projekts kommt für uns keinesfalls [ ... ]."
+    What is the prepositional phrase?
+    ```
+- **Back Side**:
+  - Revealed formula: `in Frage kommen`.
+  - Complete sentence with highlighted phrase: `... keinesfalls in Frage.`
+  - Contrast box with related idioms sharing the same verb.
 
 ---
 
 ## 🚀 How to Import into Anki
 
-### Direct 1-Click Import (`.apkg`) — Recommended
-1. Open **Anki** on desktop or mobile.
-2. Double-click [**`German_Prepositions_Master_Deck.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Prepositions_Master_Deck.apkg) *(or use File → Import inside Anki)*.
-3. Both subdecks will be imported under **`German::Prepositions`**.
-4. In your deck options, set **New card gather order: Deck / Order added** to maintain frequency ranking.
+1. Open **Anki** on desktop (Mac / Windows / Linux) or mobile (iOS / Android).
+2. Double-click [**`German_Prepositions_Master_Deck.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Prepositions_Master_Deck.apkg) *(or select **File → Import...** inside Anki)*.
+3. Anki will automatically create the parent deck **`German::Prepositions`** along with all **4 numbered subdecks**.
+4. In Deck Options, ensure **New card gather order: Deck / Order added** so you encounter cards from most frequent to less frequent.
 
 ---
 
@@ -111,9 +96,11 @@ Yes! In German grammar, prepositions are central to **4 distinct major areas**:
 
 | File | Description |
 |---|---|
-| [**`German_Prepositions_Master_Deck.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Prepositions_Master_Deck.apkg) | **Master Anki Package** (320 cards: 218 verbs + 102 adjectives) |
-| [**`German_Verbs_with_Prepositions.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Verbs_with_Prepositions.apkg) | Verbs-only Anki Package (218 cards) |
-| [**`german_all_prepositions_combined.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_all_prepositions_combined.tsv) | TSV file with all 320 cards |
-| [**`german_adjectives_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_adjectives_with_prepositions.tsv) | TSV file with 102 adjectives |
-| [**`german_verbs_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_verbs_with_prepositions.tsv) | TSV file with 218 verbs |
+| [**`German_Prepositions_Master_Deck.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Prepositions_Master_Deck.apkg) | **Master Anki Suite** (439 cards across 4 subdecks) |
+| [**`German_Verbs_with_Prepositions.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Verbs_with_Prepositions.apkg) | Verbs-only package (218 cards) |
+| [**`german_all_prepositions_combined.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_all_prepositions_combined.tsv) | Combined TSV for all 439 cards |
+| [**`german_verbs_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_verbs_with_prepositions.tsv) | Verbs TSV (218 rows) |
+| [**`german_adjectives_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_adjectives_with_prepositions.tsv) | Adjectives TSV (102 rows) |
+| [**`german_nouns_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_nouns_with_prepositions.tsv) | Nouns TSV (68 rows) |
+| [**`german_noun_verb_idioms.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_noun_verb_idioms.tsv) | Noun-Verb Idioms TSV (51 rows) |
 | [**`german_all_prepositions_combined.json`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_all_prepositions_combined.json) | Complete JSON dataset |

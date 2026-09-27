@@ -3,6 +3,7 @@
     "rank": "A-001",
     "category": "Adjective",
     "word": "unzufrieden",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -13,7 +14,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "• <b>zufrieden + mit + Dat.</b>: satisfied with / content with",
     "grammar_notes": "Antonym of 'zufrieden mit'. Takes 'mit + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Viele Kunden sind unzufrieden mit dem langsamen Service.",
     "group": "zufrieden",
     "freq_rank": 1
@@ -22,6 +30,7 @@
     "rank": "A-002",
     "category": "Adjective",
     "word": "zufrieden",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -32,7 +41,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "• <b>unzufrieden + mit + Dat.</b>: dissatisfied with / unhappy with",
     "grammar_notes": "Always takes 'mit + Dativ'. Essential everyday expression.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Chef ist sehr zufrieden mit deinen guten Arbeitsergebnissen.",
     "group": "zufrieden",
     "freq_rank": 1
@@ -41,6 +57,7 @@
     "rank": "A-003",
     "category": "Adjective",
     "word": "stolz",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -51,7 +68,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'auf + Akkusativ'. Never 'von'!",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Eltern sind unheimlich stolz auf ihre fleißige Tochter.",
     "group": "stolz",
     "freq_rank": 2
@@ -60,6 +84,7 @@
     "rank": "A-004",
     "category": "Adjective",
     "word": "wichtig",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -70,7 +95,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'für + Akkusativ' (or a plain Dativ pronoun: 'Das ist mir wichtig').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ausreichend Schlaf ist enorm wichtig für die Konzentration.",
     "group": "wichtig",
     "freq_rank": 3
@@ -79,6 +111,7 @@
     "rank": "A-005",
     "category": "Adjective",
     "word": "interessiert",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -89,7 +122,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "ATTENTION: 'interessiert sein an + Dativ' vs. the verb 'sich interessieren für + Akkusativ'!",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sind Sie an einem unverbindlichen Beratungsgespräch interessiert?",
     "group": "interessiert",
     "freq_rank": 4
@@ -98,6 +138,7 @@
     "rank": "A-006",
     "category": "Adjective",
     "word": "dankbar",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -108,7 +149,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemandem (Dat) für etwas (Akk) dankbar sein.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich bin dir unendlich dankbar für deine uneigennützige Hilfe.",
     "group": "dankbar",
     "freq_rank": 5
@@ -117,6 +165,7 @@
     "rank": "A-007",
     "category": "Adjective",
     "word": "böse",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -127,7 +176,14 @@
     "question_structure": "Auf wen?",
     "other_prepositions": "• <b>böse + über + Akk.</b>: upset about / angry about (a SITUATION or outcome)",
     "grammar_notes": "Directed at a person: 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Bist du immer noch böse auf deinen kleinen Bruder?",
     "group": "böse",
     "freq_rank": 6
@@ -136,6 +192,7 @@
     "rank": "A-008",
     "category": "Adjective",
     "word": "böse",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -146,7 +203,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>böse + auf + Akk.</b>: angry with / mad at (a PERSON)",
     "grammar_notes": "Directed at a circumstance: 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er war sehr böse über die unnötige Niederlage im Spiel.",
     "group": "böse",
     "freq_rank": 6
@@ -155,6 +219,7 @@
     "rank": "A-009",
     "category": "Adjective",
     "word": "wütend",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -165,7 +230,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>wütend + auf + Akk.</b>: furious at / enraged with (a PERSON)",
     "grammar_notes": "Furious about an issue/event: 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Bürger sind wütend über die erneute Erhöhung der Ticketpreise.",
     "group": "wütend",
     "freq_rank": 7
@@ -174,6 +246,7 @@
     "rank": "A-010",
     "category": "Adjective",
     "word": "wütend",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -184,7 +257,14 @@
     "question_structure": "Auf wen?",
     "other_prepositions": "• <b>wütend + über + Akk.</b>: furious about (a MATTER or situation)",
     "grammar_notes": "Furious at an individual: 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie ist furchtbar wütend auf ihren unzuverlässigen Nachbarn.",
     "group": "wütend",
     "freq_rank": 7
@@ -193,6 +273,7 @@
     "rank": "A-011",
     "category": "Adjective",
     "word": "froh",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -203,7 +284,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir sind alle sehr froh über die erfreulichen Nachrichten.",
     "group": "froh",
     "freq_rank": 8
@@ -212,6 +300,7 @@
     "rank": "A-012",
     "category": "Adjective",
     "word": "glücklich",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -222,7 +311,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie ist überglücklich über das bestandene Vorstellungsgespräch.",
     "group": "glücklich",
     "freq_rank": 9
@@ -231,6 +327,7 @@
     "rank": "A-013",
     "category": "Adjective",
     "word": "traurig",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -241,7 +338,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Always 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Das Kind war untröstlich und traurig über den Verlust des Spielzeugs.",
     "group": "traurig",
     "freq_rank": 10
@@ -250,6 +354,7 @@
     "rank": "A-014",
     "category": "Adjective",
     "word": "fertig",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -260,7 +365,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Completion of a task or parting with someone ('Ich bin fertig mit ihm').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Bist du schon fertig mit deinen Hausaufgaben?",
     "group": "fertig",
     "freq_rank": 11
@@ -269,6 +381,7 @@
     "rank": "A-015",
     "category": "Adjective",
     "word": "verliebt",
+    "synonym": "",
     "prep": "in",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -279,7 +392,14 @@
     "question_structure": "In wen?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'in + Akkusativ'. Never 'mit'!",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::in",
+      "case::akk"
+    ],
     "raw_sentence_de": "Romeo war unsterblich in Julia verliebt.",
     "group": "verliebt",
     "freq_rank": 12
@@ -288,6 +408,7 @@
     "rank": "A-016",
     "category": "Adjective",
     "word": "verheiratet",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -298,7 +419,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'mit + Dativ' (in German you are married 'with' someone).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Mein Onkel ist seit über dreißig Jahren mit einer Ärztin verheiratet.",
     "group": "verheiratet",
     "freq_rank": 13
@@ -307,6 +435,7 @@
     "rank": "A-017",
     "category": "Adjective",
     "word": "befreundet",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -317,7 +446,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'mit + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie ist seit der Schulzeit eng mit meiner Schwester befreundet.",
     "group": "befreundet",
     "freq_rank": 14
@@ -326,6 +462,7 @@
     "rank": "A-018",
     "category": "Adjective",
     "word": "verwandt",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -336,7 +473,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Biological or familial relationship: 'mit + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ist er eigentlich über drei Ecken mit dir verwandt?",
     "group": "verwandt",
     "freq_rank": 15
@@ -345,6 +489,7 @@
     "rank": "A-019",
     "category": "Adjective",
     "word": "abhängig",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -355,7 +500,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "• <b>unabhängig + von + Dat.</b>: independent of / regardless of",
     "grammar_notes": "Derived from 'abhängen von + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Unsere Pläne sind völlig abhängig von der aktuellen Wetterlage.",
     "group": "abhängig",
     "freq_rank": 16
@@ -364,6 +516,7 @@
     "rank": "A-020",
     "category": "Adjective",
     "word": "unabhängig",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -374,7 +527,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>abhängig + von + Dat.</b>: dependent on",
     "grammar_notes": "Takes 'von + Dativ'. Frequently used as an adverb ('unabhängig davon').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Gesetz gilt für alle Bürger, ganz unabhängig von ihrem Einkommen.",
     "group": "abhängig",
     "freq_rank": 16
@@ -383,6 +543,7 @@
     "rank": "A-021",
     "category": "Adjective",
     "word": "angewiesen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -393,7 +554,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Strong dependency/need. Always 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ohne Auto ist man auf dem Lande auf öffentliche Verkehrsmittel angewiesen.",
     "group": "angewiesen",
     "freq_rank": 17
@@ -402,6 +570,7 @@
     "rank": "A-022",
     "category": "Adjective",
     "word": "bereit",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -412,7 +581,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>bereit + zu + Dat.</b>: ready for / willing to do (an action or compromise)",
     "grammar_notes": "Preparedness for an event: 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Bist du schon startklar und bereit für die große Reise?",
     "group": "bereit",
     "freq_rank": 18
@@ -421,6 +597,7 @@
     "rank": "A-023",
     "category": "Adjective",
     "word": "bereit",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -431,7 +608,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "• <b>bereit + für + Akk.</b>: ready for (an upcoming event, journey, or challenge)",
     "grammar_notes": "Willingness to take an action: 'zu + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Beide Parteien waren erfreulicherweise zu einem Kompromiss bereit.",
     "group": "bereit",
     "freq_rank": 18
@@ -440,6 +624,7 @@
     "rank": "A-024",
     "category": "Adjective",
     "word": "bekannt",
+    "synonym": "",
     "prep": "bei",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -450,7 +635,14 @@
     "question_structure": "Bei wem?",
     "other_prepositions": "• <b>bekannt + für + Akk.</b>: known for / famous for (a quality, product, or feature)",
     "grammar_notes": "Audience or circle of familiarity: 'bei + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::bei",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der junge Autor ist vor allem bei jugendlichen Lesern bekannt.",
     "group": "bekannt",
     "freq_rank": 19
@@ -459,6 +651,7 @@
     "rank": "A-025",
     "category": "Adjective",
     "word": "bekannt",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -469,7 +662,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>bekannt + bei + Dat.</b>: known among / well-known to (a group of people)",
     "grammar_notes": "Feature or hallmark: 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "München ist weltweit bekannt für das berühmte Oktoberfest.",
     "group": "bekannt",
     "freq_rank": 19
@@ -478,6 +678,7 @@
     "rank": "A-026",
     "category": "Adjective",
     "word": "beliebt",
+    "synonym": "",
     "prep": "bei",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -488,7 +689,14 @@
     "question_structure": "Bei wem?",
     "other_prepositions": "",
     "grammar_notes": "The demographic or group takes 'bei + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::bei",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die freundliche Lehrerin ist überaus beliebt bei ihren Schülern.",
     "group": "beliebt",
     "freq_rank": 20
@@ -497,6 +705,7 @@
     "rank": "A-027",
     "category": "Adjective",
     "word": "begeistert",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -507,7 +716,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'von + Dativ'. Expresses immense admiration.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Publikum war restlos begeistert von der grandiosen Aufführung.",
     "group": "begeistert",
     "freq_rank": 21
@@ -516,6 +732,7 @@
     "rank": "A-028",
     "category": "Adjective",
     "word": "berühmt",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -526,7 +743,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Synonym to 'bekannt für + Akk'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Schweiz ist weltberühmt für ihre feine Schokolade und Uhren.",
     "group": "berühmt",
     "freq_rank": 22
@@ -535,6 +759,7 @@
     "rank": "A-029",
     "category": "Adjective",
     "word": "beschäftigt",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -545,7 +770,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "",
     "grammar_notes": "Derived from 'sich beschäftigen mit + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er ist momentan vollauf mit den Vorbereitungen für die Messe beschäftigt.",
     "group": "beschäftigt",
     "freq_rank": 23
@@ -554,6 +786,7 @@
     "rank": "A-030",
     "category": "Adjective",
     "word": "beteiligt",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -564,7 +797,14 @@
     "question_structure": "Woran? • Daran / An wem?",
     "other_prepositions": "",
     "grammar_notes": "Participation or partnership takes 'an + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Mehrere renommierte Firmen sind an dem Großprojekt beteiligt.",
     "group": "beteiligt",
     "freq_rank": 24
@@ -573,6 +813,7 @@
     "rank": "A-031",
     "category": "Adjective",
     "word": "eifersüchtig",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -583,7 +824,14 @@
     "question_structure": "Auf wen? / Worauf?",
     "other_prepositions": "",
     "grammar_notes": "Romantic or personal jealousy: 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er ist grundlos eifersüchtig auf jeden Mann, der sie anlächelt.",
     "group": "eifersüchtig",
     "freq_rank": 25
@@ -592,6 +840,7 @@
     "rank": "A-032",
     "category": "Adjective",
     "word": "neidisch",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -602,7 +851,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Material or professional envy: 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Niemand sollte neidisch auf den plötzlichen Erfolg anderer sein.",
     "group": "neidisch",
     "freq_rank": 26
@@ -611,6 +867,7 @@
     "rank": "A-033",
     "category": "Adjective",
     "word": "einverstanden",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -621,7 +878,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "",
     "grammar_notes": "Formula: mit etwas (Dat) einverstanden sein.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Bist du mit dieser vorgeschlagenen Regelung einverstanden?",
     "group": "einverstanden",
     "freq_rank": 27
@@ -630,6 +894,7 @@
     "rank": "A-034",
     "category": "Adjective",
     "word": "enttäuscht",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -640,7 +905,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>enttäuscht + von + Dat.</b>: disappointed in / by (a PERSON or their performance)",
     "grammar_notes": "Disappointment about a circumstance: 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie war bitter enttäuscht über das schlechte Prüfungsergebnis.",
     "group": "enttäuscht",
     "freq_rank": 28
@@ -649,6 +921,7 @@
     "rank": "A-035",
     "category": "Adjective",
     "word": "enttäuscht",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -659,7 +932,14 @@
     "question_structure": "Von wem? / Wovon?",
     "other_prepositions": "• <b>enttäuscht + über + Akk.</b>: disappointed about (an EVENT, outcome, or fact)",
     "grammar_notes": "Disappointment in a person: 'von + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Trainer war zutiefst enttäuscht von der lustlosen Mannschaft.",
     "group": "enttäuscht",
     "freq_rank": 28
@@ -668,6 +948,7 @@
     "rank": "A-036",
     "category": "Adjective",
     "word": "entschlossen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -678,7 +959,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Takes 'zu + Dativ'. Firm resolution.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Regierung ist fest zu durchgreifenden Reformen entschlossen.",
     "group": "entschlossen",
     "freq_rank": 29
@@ -687,6 +975,7 @@
     "rank": "A-037",
     "category": "Adjective",
     "word": "erstaunt",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -697,7 +986,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir waren sehr erstaunt über seine perfekten Deutschkenntnisse.",
     "group": "erstaunt",
     "freq_rank": 30
@@ -706,6 +1002,7 @@
     "rank": "A-038",
     "category": "Adjective",
     "word": "fähig",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -716,7 +1013,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'zu + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "In einer Krise ist der Mensch oft zu ungeahnten Leistungen fähig.",
     "group": "fähig",
     "freq_rank": 31
@@ -725,6 +1029,7 @@
     "rank": "A-039",
     "category": "Adjective",
     "word": "frei",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -735,7 +1040,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "",
     "grammar_notes": "Absence of unwanted substances or burdens.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Dieses Produkt ist garantiert frei von künstlichen Konservierungsstoffen.",
     "group": "frei",
     "freq_rank": 32
@@ -744,6 +1056,7 @@
     "rank": "A-040",
     "category": "Adjective",
     "word": "freundlich",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -754,7 +1067,14 @@
     "question_structure": "Zu wem?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'zu + Dativ' (less commonly: 'gegenüber + Dat').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Hotelpersonal war zu jeder Zeit überaus freundlich zu den Gästen.",
     "group": "freundlich",
     "freq_rank": 33
@@ -763,6 +1083,7 @@
     "rank": "A-041",
     "category": "Adjective",
     "word": "höflich",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -773,7 +1094,14 @@
     "question_structure": "Zu wem?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'zu + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ein Kellner sollte stets höflich zu allen Kunden sein.",
     "group": "höflich",
     "freq_rank": 34
@@ -782,6 +1110,7 @@
     "rank": "A-042",
     "category": "Adjective",
     "word": "streng",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -792,7 +1121,14 @@
     "question_structure": "Zu wem?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'zu + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Manche Eltern sind viel zu streng zu ihren heranwachsenden Kindern.",
     "group": "streng",
     "freq_rank": 35
@@ -801,6 +1137,7 @@
     "rank": "A-043",
     "category": "Adjective",
     "word": "geeignet",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -811,7 +1148,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Diese Software ist besonders gut für kleine und mittlere Betriebe geeignet.",
     "group": "geeignet",
     "freq_rank": 36
@@ -820,6 +1164,7 @@
     "rank": "A-044",
     "category": "Adjective",
     "word": "gespannt",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -830,7 +1175,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Anticipating a revelation or outcome. Always 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich bin schon unheimlich gespannt auf das morgige Endspiel!",
     "group": "gespannt",
     "freq_rank": 37
@@ -839,6 +1191,7 @@
     "rank": "A-045",
     "category": "Adjective",
     "word": "gewöhnt",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -849,7 +1202,14 @@
     "question_structure": "Woran? • Daran / An wen?",
     "other_prepositions": "",
     "grammar_notes": "State of being accustomed: 'an + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Als Skandinavier ist er an eisige Winter gewöhnt.",
     "group": "gewöhnt",
     "freq_rank": 38
@@ -858,6 +1218,7 @@
     "rank": "A-046",
     "category": "Adjective",
     "word": "gut",
+    "synonym": "",
     "prep": "in",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -868,7 +1229,14 @@
     "question_structure": "Worin? • Darin",
     "other_prepositions": "• <b>gut + zu + Dat.</b>: kind to / good to (a person)",
     "grammar_notes": "Proficiency in a field takes 'in + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::in",
+      "case::dat"
+    ],
     "raw_sentence_de": "Schon als Schüler war er außergewöhnlich gut in Mathematik.",
     "group": "gut",
     "freq_rank": 39
@@ -877,6 +1245,7 @@
     "rank": "A-047",
     "category": "Adjective",
     "word": "gut",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -887,7 +1256,14 @@
     "question_structure": "Zu wem?",
     "other_prepositions": "• <b>gut + in + Dat.</b>: good at (a subject, discipline, or sport)",
     "grammar_notes": "Interpersonal treatment: 'zu + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er war während der schweren Zeit immer gut zu mir.",
     "group": "gut",
     "freq_rank": 39
@@ -896,6 +1272,7 @@
     "rank": "A-048",
     "category": "Adjective",
     "word": "schlecht",
+    "synonym": "",
     "prep": "in",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -906,7 +1283,14 @@
     "question_structure": "Worin? • Darin",
     "other_prepositions": "",
     "grammar_notes": "Opposite of 'gut in + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::in",
+      "case::dat"
+    ],
     "raw_sentence_de": "Leider bin ich ziemlich schlecht in Auswendiglernen von Jahreszahlen.",
     "group": "schlecht",
     "freq_rank": 40
@@ -915,6 +1299,7 @@
     "rank": "A-049",
     "category": "Adjective",
     "word": "neugierig",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -925,7 +1310,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Kinder waren furchtbar neugierig auf die eingepackten Geschenke.",
     "group": "neugierig",
     "freq_rank": 41
@@ -934,6 +1326,7 @@
     "rank": "A-050",
     "category": "Adjective",
     "word": "nützlich",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -944,7 +1337,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "",
     "grammar_notes": "Utility takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Diese praktischen Tipps sind besonders nützlich für Sprachanfänger.",
     "group": "nützlich",
     "freq_rank": 42
@@ -953,6 +1353,7 @@
     "rank": "A-051",
     "category": "Adjective",
     "word": "offen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -963,7 +1364,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Receptivity to suggestions: 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Unsere Abteilung ist jederzeit offen für innovative Vorschläge.",
     "group": "offen",
     "freq_rank": 43
@@ -972,6 +1380,7 @@
     "rank": "A-052",
     "category": "Adjective",
     "word": "reich",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -982,7 +1391,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Abundance of a resource takes 'an + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Frische Beeren sind besonders reich an wertvollen Vitaminen.",
     "group": "reich",
     "freq_rank": 44
@@ -991,6 +1407,7 @@
     "rank": "A-053",
     "category": "Adjective",
     "word": "arm",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1001,7 +1418,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Opposite of 'reich an + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Diese karge Wüstenregion ist extrem arm an Wasser und Vegetation.",
     "group": "arm",
     "freq_rank": 45
@@ -1010,6 +1434,7 @@
     "rank": "A-054",
     "category": "Adjective",
     "word": "schädlich",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1020,7 +1445,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Plastikmüll im Meer ist extrem schädlich für die Tierwelt.",
     "group": "schädlich",
     "freq_rank": 46
@@ -1029,6 +1461,7 @@
     "rank": "A-055",
     "category": "Adjective",
     "word": "schuld",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1039,7 +1472,14 @@
     "question_structure": "Woran? • Daran / An wem?",
     "other_prepositions": "",
     "grammar_notes": "Uninflected predicate adjective: 'schuld sein an + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Niemand von uns ist schuld an diesem unglücklichen Unfall.",
     "group": "schuld",
     "freq_rank": 47
@@ -1048,6 +1488,7 @@
     "rank": "A-056",
     "category": "Adjective",
     "word": "typisch",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1058,7 +1499,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Always 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Diese typische Gastfreundschaft ist bezeichnend für die Region.",
     "group": "typisch",
     "freq_rank": 48
@@ -1067,6 +1515,7 @@
     "rank": "A-057",
     "category": "Adjective",
     "word": "überzeugt",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1077,7 +1526,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Derived from 'überzeugen von + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich bin felsenfest von der Richtigkeit dieser Maßnahme überzeugt.",
     "group": "überzeugt",
     "freq_rank": 49
@@ -1086,6 +1542,7 @@
     "rank": "A-058",
     "category": "Adjective",
     "word": "verantwortlich",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1096,7 +1553,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "",
     "grammar_notes": "Duty or liability takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wer ist in Ihrer Abteilung verantwortlich für die IT-Sicherheit?",
     "group": "verantwortlich",
     "freq_rank": 50
@@ -1105,6 +1569,7 @@
     "rank": "A-059",
     "category": "Adjective",
     "word": "zuständig",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1115,7 +1580,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Official or bureaucratic competence.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Frau Müller ist für die Bearbeitung aller Visa-Anträge zuständig.",
     "group": "zuständig",
     "freq_rank": 51
@@ -1124,6 +1596,7 @@
     "rank": "A-060",
     "category": "Adjective",
     "word": "verrückt",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1134,7 +1607,14 @@
     "question_structure": "Wonach? • Danach / Nach wem?",
     "other_prepositions": "",
     "grammar_notes": "Obsessive liking: 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Kinder sind förmlich verrückt nach italienischem Schokoladeneis.",
     "group": "verrückt",
     "freq_rank": 52
@@ -1143,6 +1623,7 @@
     "rank": "A-061",
     "category": "Adjective",
     "word": "besorgt",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1153,7 +1634,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>besorgt + um + Akk.</b>: worried about (someone's safety, health, or welfare)",
     "grammar_notes": "Concern regarding broader public issues: 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Ökonomen sind besorgt über die steigende Inflation.",
     "group": "besorgt",
     "freq_rank": 53
@@ -1162,6 +1650,7 @@
     "rank": "A-062",
     "category": "Adjective",
     "word": "besorgt",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1172,7 +1661,14 @@
     "question_structure": "Worum? • Darum / Um wen?",
     "other_prepositions": "• <b>besorgt + über + Akk.</b>: concerned about / perturbed by (a political/economic situation)",
     "grammar_notes": "Worry about personal well-being or safety: 'um + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Mutter war sehr besorgt um die Gesundheit ihres kranken Sohnes.",
     "group": "besorgt",
     "freq_rank": 53
@@ -1181,6 +1677,7 @@
     "rank": "A-063",
     "category": "Adjective",
     "word": "skeptisch",
+    "synonym": "",
     "prep": "gegenüber",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1191,7 +1688,14 @@
     "question_structure": "Worüber? / Gegenüber wem?",
     "other_prepositions": "",
     "grammar_notes": "Postposition/preposition 'gegenüber' always takes Dativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::gegenüber",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Anleger stehen dem neuen Finanzplan skeptisch gegenüberüber.",
     "group": "skeptisch",
     "freq_rank": 54
@@ -1200,6 +1704,7 @@
     "rank": "A-064",
     "category": "Adjective",
     "word": "aufgeschlossen",
+    "synonym": "",
     "prep": "gegenüber",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1210,7 +1715,14 @@
     "question_structure": "Gegenüber wem?",
     "other_prepositions": "",
     "grammar_notes": "Attitude towards others/innovations: takes Dativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::gegenüber",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie zeigt sich sehr aufgeschlossen gegenüber fremden Kulturen gegenüber.",
     "group": "aufgeschlossen",
     "freq_rank": 55
@@ -1219,6 +1731,7 @@
     "rank": "A-065",
     "category": "Adjective",
     "word": "misstrauisch",
+    "synonym": "",
     "prep": "gegenüber",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1229,7 +1742,14 @@
     "question_structure": "Gegenüber wem?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'gegenüber + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::gegenüber",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er war von Natur aus misstrauisch gegenüber Fremden gegenüber.",
     "group": "misstrauisch",
     "freq_rank": 56
@@ -1238,6 +1758,7 @@
     "rank": "A-066",
     "category": "Adjective",
     "word": "empfindlich",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1248,7 +1769,14 @@
     "question_structure": "Wogegen? • Dagegen",
     "other_prepositions": "",
     "grammar_notes": "Physical or sensory sensitivity: 'gegen + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Meine Zähne sind extrem empfindlich gegen Kälte und Säure.",
     "group": "empfindlich",
     "freq_rank": 57
@@ -1257,6 +1785,7 @@
     "rank": "A-067",
     "category": "Adjective",
     "word": "immun",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1267,7 +1796,14 @@
     "question_structure": "Wogegen? • Dagegen",
     "other_prepositions": "",
     "grammar_notes": "Resistance takes 'gegen + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Nach der Impfung ist der Organismus immun gegen den Erreger.",
     "group": "immun",
     "freq_rank": 58
@@ -1276,6 +1812,7 @@
     "rank": "A-068",
     "category": "Adjective",
     "word": "allergisch",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1286,7 +1823,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Takes 'auf + Akkusativ'. (Informally also 'gegen + Akk').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie reagiert stark allergisch auf Katzenhaare.",
     "group": "allergisch",
     "freq_rank": 59
@@ -1295,6 +1839,7 @@
     "rank": "A-069",
     "category": "Adjective",
     "word": "überrascht",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1305,7 +1850,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>überrascht + über + Akk.</b>: surprised at / by (an outcome or fact)",
     "grammar_notes": "Agent or passive cause: 'von + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Torwart wurde völlig von dem weiten Schuss überrascht.",
     "group": "überrascht",
     "freq_rank": 60
@@ -1314,6 +1866,7 @@
     "rank": "A-070",
     "category": "Adjective",
     "word": "überrascht",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1324,7 +1877,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>überrascht + von + Dat.</b>: caught off-guard by / surprised by (a person or unforeseen act)",
     "grammar_notes": "Reaction to an event: 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Alle waren positiv überrascht über die schnelle Genesung.",
     "group": "überrascht",
     "freq_rank": 60
@@ -1333,6 +1893,7 @@
     "rank": "A-071",
     "category": "Adjective",
     "word": "voll",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1343,7 +1904,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "",
     "grammar_notes": "Can also be used with plain Genitive ('voller Freude').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Nach dem Waldspaziergang waren seine Schuhe voll von Schlamm.",
     "group": "voll",
     "freq_rank": 61
@@ -1352,6 +1920,7 @@
     "rank": "A-072",
     "category": "Adjective",
     "word": "rot",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1362,7 +1931,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "",
     "grammar_notes": "Emotional involuntary physical reactions take 'vor + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Vor lauter Verlegenheit wurde der Junge knallrot vor Scham.",
     "group": "rot",
     "freq_rank": 62
@@ -1371,6 +1947,7 @@
     "rank": "A-073",
     "category": "Adjective",
     "word": "stumm",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1381,7 +1958,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "",
     "grammar_notes": "Emotional paralysis takes 'vor + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Zeugen blieben stumm vor Entsetzen über den Vorfall.",
     "group": "stumm",
     "freq_rank": 63
@@ -1390,6 +1974,7 @@
     "rank": "A-074",
     "category": "Adjective",
     "word": "blass",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1400,7 +1985,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "",
     "grammar_notes": "Takes 'vor + Dativ' (e.g. blass vor Neid).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er wurde kreidebleich und blass vor Angst vor der Prüfung.",
     "group": "blass",
     "freq_rank": 64
@@ -1409,6 +2001,7 @@
     "rank": "A-075",
     "category": "Adjective",
     "word": "blind",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1419,7 +2012,14 @@
     "question_structure": "Worauf?",
     "other_prepositions": "• <b>blind + für + Akk.</b>: blind to (faults, dangers, risks - figurative)",
     "grammar_notes": "Physical blindness in one eye: 'auf + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::auf",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der alte Kater ist leider auf dem linken Auge völlig blind.",
     "group": "blind",
     "freq_rank": 65
@@ -1428,6 +2028,7 @@
     "rank": "A-076",
     "category": "Adjective",
     "word": "blind",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1438,7 +2039,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>blind + auf + Dat.</b>: blind in (an eye - anatomical)",
     "grammar_notes": "Figurative blindness/ignorance: 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Vor lauter Liebe war er blind für ihre vielen Fehler.",
     "group": "blind",
     "freq_rank": 65
@@ -1447,6 +2055,7 @@
     "rank": "A-077",
     "category": "Adjective",
     "word": "taub",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1457,7 +2066,14 @@
     "question_structure": "Worauf?",
     "other_prepositions": "• <b>taub + für + Akk.</b>: deaf to (arguments, advice - figurative)",
     "grammar_notes": "Physical deafness in an ear: 'auf + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::auf",
+      "case::dat"
+    ],
     "raw_sentence_de": "Seit der Explosion ist der Soldat auf dem rechten Ohr taub.",
     "group": "taub",
     "freq_rank": 66
@@ -1466,6 +2082,7 @@
     "rank": "A-078",
     "category": "Adjective",
     "word": "taub",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1476,7 +2093,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>taub + auf + Dat.</b>: deaf in (an ear - anatomical)",
     "grammar_notes": "Refusing to heed reasoning: 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der Diktator blieb taub für alle friedlichen Bitten des Volkes.",
     "group": "taub",
     "freq_rank": 66
@@ -1485,6 +2109,7 @@
     "rank": "A-079",
     "category": "Adjective",
     "word": "verbittert",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1495,7 +2120,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Resentment takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er war tief verbittert über die ungerechtfertigte Kündigung.",
     "group": "verbittert",
     "freq_rank": 67
@@ -1504,6 +2136,7 @@
     "rank": "A-080",
     "category": "Adjective",
     "word": "verärgert",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1514,7 +2147,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Passagiere waren extrem verärgert über die stundenlange Verspätung.",
     "group": "verärgert",
     "freq_rank": 68
@@ -1523,6 +2163,7 @@
     "rank": "A-081",
     "category": "Adjective",
     "word": "aufmerksam",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1533,7 +2174,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Formula: aufmerksam werden/machen auf + Akk.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Polizei wurde durch einen anonymen Hinweis auf das Versteck aufmerksam.",
     "group": "aufmerksam",
     "freq_rank": 69
@@ -1542,6 +2190,7 @@
     "rank": "A-082",
     "category": "Adjective",
     "word": "hungrig",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1552,7 +2201,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "",
     "grammar_notes": "Figurative hunger/craving takes 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die junge Athletin ist hungrig nach neuen Rekorden und Siegen.",
     "group": "hungrig",
     "freq_rank": 70
@@ -1561,6 +2217,7 @@
     "rank": "A-083",
     "category": "Adjective",
     "word": "durstig",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1571,7 +2228,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "",
     "grammar_notes": "Takes 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wissenschaftler sind stets durstig nach neuen Erkenntnissen.",
     "group": "durstig",
     "freq_rank": 71
@@ -1580,6 +2244,7 @@
     "rank": "A-084",
     "category": "Adjective",
     "word": "süchtig",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1590,7 +2255,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "",
     "grammar_notes": "Addiction takes 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Immer mehr Jugendliche sind süchtig nach sozialen Medien.",
     "group": "süchtig",
     "freq_rank": 72
@@ -1599,6 +2271,7 @@
     "rank": "A-085",
     "category": "Adjective",
     "word": "besessen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1609,7 +2282,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Obsession takes 'von + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Erfinder war förmlich besessen von seiner neuen Vision.",
     "group": "besessen",
     "freq_rank": 73
@@ -1618,6 +2298,7 @@
     "rank": "A-086",
     "category": "Adjective",
     "word": "erfreut",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1628,7 +2309,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Formal synonym for 'froh über + Akk'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir waren außerordentlich erfreut über deinen überraschenden Besuch.",
     "group": "erfreut",
     "freq_rank": 74
@@ -1637,6 +2325,7 @@
     "rank": "A-087",
     "category": "Adjective",
     "word": "beunruhigt",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1647,7 +2336,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Bürger sind zutiefst beunruhigt über die zunehmende Kriminalität.",
     "group": "beunruhigt",
     "freq_rank": 75
@@ -1656,6 +2352,7 @@
     "rank": "A-088",
     "category": "Adjective",
     "word": "charakteristisch",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1666,7 +2363,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Distinctive feature: 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die spitzen Türme sind absolut charakteristisch für diese gotische Kathedrale.",
     "group": "charakteristisch",
     "freq_rank": 76
@@ -1675,6 +2379,7 @@
     "rank": "A-089",
     "category": "Adjective",
     "word": "entscheidend",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1685,7 +2390,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Gute Teamarbeit ist oft entscheidend für den Projekterfolg.",
     "group": "entscheidend",
     "freq_rank": 77
@@ -1694,6 +2406,7 @@
     "rank": "A-090",
     "category": "Adjective",
     "word": "gefasst",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1704,7 +2417,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Formula: gefasst sein auf + Akk (prepared for negative eventualities).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Man muss im Leben auf alle bösen Überraschungen gefasst sein.",
     "group": "gefasst",
     "freq_rank": 78
@@ -1713,6 +2433,7 @@
     "rank": "A-091",
     "category": "Adjective",
     "word": "nett",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1723,7 +2444,14 @@
     "question_structure": "Zu wem?",
     "other_prepositions": "",
     "grammar_notes": "Formula: nett sein zu + Dativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::adjective",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sei bitte immer nett zu deinen jüngeren Geschwistern!",
     "group": "nett",
     "freq_rank": 79
@@ -1732,6 +2460,7 @@
     "rank": "A-092",
     "category": "Adjective",
     "word": "beeindruckt",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1742,7 +2471,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'von + Dativ'. Very high frequency.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Prüfungskommission war sichtlich beeindruckt von ihrem fundierten Fachwissen.",
     "group": "beeindruckt",
     "freq_rank": 80
@@ -1751,6 +2487,7 @@
     "rank": "A-093",
     "category": "Adjective",
     "word": "fasziniert",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1761,7 +2498,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'von + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Kinder waren völlig fasziniert von den bunten Fischen im Aquarium.",
     "group": "fasziniert",
     "freq_rank": 81
@@ -1770,6 +2514,7 @@
     "rank": "A-094",
     "category": "Adjective",
     "word": "erfahren",
+    "synonym": "",
     "prep": "in",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1780,7 +2525,14 @@
     "question_structure": "Worin? • Darin",
     "other_prepositions": "",
     "grammar_notes": "Professional competence takes 'in + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::in",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie ist außerordentlich erfahren in der Leitung internationaler Projekte.",
     "group": "erfahren",
     "freq_rank": 82
@@ -1789,6 +2541,7 @@
     "rank": "A-095",
     "category": "Adjective",
     "word": "sicher",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1799,7 +2552,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "",
     "grammar_notes": "Protection from harm takes 'vor + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "In der gemütlichen Berghütte waren die Wanderer sicher vor dem Unwetter.",
     "group": "sicher",
     "freq_rank": 83
@@ -1808,6 +2568,7 @@
     "rank": "A-096",
     "category": "Adjective",
     "word": "geschützt",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1818,7 +2579,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "",
     "grammar_notes": "Takes 'vor + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die sensible Elektronik ist gut vor Feuchtigkeit und Staub geschützt.",
     "group": "geschützt",
     "freq_rank": 84
@@ -1827,6 +2595,7 @@
     "rank": "A-097",
     "category": "Adjective",
     "word": "getrennt",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1837,7 +2606,14 @@
     "question_structure": "Von wem? / Wovon?",
     "other_prepositions": "",
     "grammar_notes": "Physical or marital separation takes 'von + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::adjective",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Seit zwei Jahren lebt er getrennt von seiner Ehefrau.",
     "group": "getrennt",
     "freq_rank": 85
@@ -1846,6 +2622,7 @@
     "rank": "A-098",
     "category": "Adjective",
     "word": "gleichgültig",
+    "synonym": "",
     "prep": "gegenüber",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1856,7 +2633,14 @@
     "question_structure": "Gegenüber wem? / Worüber?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'gegenüber + Dativ'. Can appear before or after the dative noun.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::gegenüber",
+      "case::dat"
+    ],
     "raw_sentence_de": "Man darf dem Leid anderer Menschen niemals gegenüber gleichgültig sein.",
     "group": "gleichgültig",
     "freq_rank": 86
@@ -1865,6 +2649,7 @@
     "rank": "A-099",
     "category": "Adjective",
     "word": "machtlos",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1875,7 +2660,14 @@
     "question_structure": "Wogegen? • Dagegen",
     "other_prepositions": "",
     "grammar_notes": "Takes 'gegen + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::adjective",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Gegenüber extremen Naturgewalten ist der Mensch oft völlig machtlos gegen die Zerstörung.",
     "group": "machtlos",
     "freq_rank": 87
@@ -1884,6 +2676,7 @@
     "rank": "A-100",
     "category": "Adjective",
     "word": "entsetzt",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1894,7 +2687,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Extreme shock takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die ganze Welt war entsetzt über das verheerende Erdbeben.",
     "group": "entsetzt",
     "freq_rank": 88
@@ -1903,6 +2703,7 @@
     "rank": "A-101",
     "category": "Adjective",
     "word": "empört",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1913,7 +2714,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "",
     "grammar_notes": "Moral indignation takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Belegschaft war empört über die plötzliche Schließung des Werks.",
     "group": "empört",
     "freq_rank": 89
@@ -1922,6 +2730,7 @@
     "rank": "A-102",
     "category": "Adjective",
     "word": "sehnsüchtig",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1932,7 +2741,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "",
     "grammar_notes": "Emotional longing takes 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::adjective",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Exilant sehnte sich und blickte sehnsüchtig nach seiner fernen Heimat.",
     "group": "sehnsüchtig",
     "freq_rank": 90

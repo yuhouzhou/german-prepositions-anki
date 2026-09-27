@@ -1,25 +1,35 @@
 #!/usr/bin/env python3
 """
-Build script for German Prepositions Master Anki Deck (Verbs + Adjectives/Adverbs).
+Build script for German Prepositions Master Anki Suite:
+  1. Verbs with Prepositions (218 cards)
+  2. Adjectives with Prepositions (102 cards)
+  3. Nouns with Prepositions (68 cards)
+  4. Noun-Verb Idioms / Nomen-Verb-Verbindungen (51 cards)
+
+Total: 439 Cards
 Generates:
-  1. German_Prepositions_Master_Deck.apkg (Anki package with Verbs and Adjectives subdecks)
-  2. german_verbs_with_prepositions.tsv / .csv / .json
-  3. german_adjectives_with_prepositions.tsv / .csv / .json
-  4. german_all_prepositions_combined.tsv / .csv / .json
+  - German_Prepositions_Master_Deck.apkg (4-subdeck Master Package)
+  - Individual & combined TSV, CSV, and JSON exports.
 """
 
 import json
 import csv
 import os
+import re
 from collections import defaultdict
 import genanki
+
 from verbs_data import RAW_VERB_DATA
 from adjectives_data import RAW_ADJECTIVE_DATA
+from nouns_data import RAW_NOUN_DATA
+from idioms_data import RAW_IDIOM_DATA
 
 MODEL_ID = 1748291045
 MASTER_DECK_ID = 2084920190
 VERBS_DECK_ID = 2084920191
 ADJECTIVES_DECK_ID = 2084920192
+NOUNS_DECK_ID = 2084920193
+IDIOMS_DECK_ID = 2084920194
 
 # CSS styling for modern, high-contrast, dark/light mode compatible flashcards
 CARD_CSS = """
@@ -83,6 +93,7 @@ CARD_CSS = """
   display: flex;
   gap: 6px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .badge {
@@ -154,7 +165,7 @@ CARD_CSS = """
 }
 
 .word-title {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 800;
   color: #111827;
   letter-spacing: -0.02em;
@@ -165,6 +176,20 @@ CARD_CSS = """
 @media (prefers-color-scheme: dark) {
   .word-title {
     color: #f9fafb;
+  }
+}
+
+.synonym-line {
+  font-size: 14px;
+  font-weight: 600;
+  color: #059669;
+  margin-bottom: 4px;
+}
+
+.nightMode .synonym-line,
+@media (prefers-color-scheme: dark) {
+  .synonym-line {
+    color: #34d399;
   }
 }
 
@@ -479,6 +504,9 @@ FRONT_TEMPLATE = """
 
   <div class="word-section">
     <div class="word-title">{{Word}}</div>
+    {{#Synonym}}
+    <div class="synonym-line">= {{Synonym}}</div>
+    {{/Synonym}}
     <div class="meaning-subtitle">{{Meaning_EN}}</div>
   </div>
 
@@ -489,7 +517,7 @@ FRONT_TEMPLATE = """
   </div>
 
   <div class="prompt-box">
-    What is the <b>preposition</b> and <b>case</b>?
+    {{Prompt_Text}}
   </div>
 </div>
 """
@@ -507,10 +535,15 @@ BACK_TEMPLATE = """
 
   <div class="word-section">
     <div class="word-title">{{Word}}</div>
+    {{#Synonym}}
+    <div class="synonym-line">= {{Synonym}}</div>
+    {{/Synonym}}
     <div class="formula-box">
       <span class="word-accent">{{Word}}</span>
       <span class="prep-pill">{{Preposition}}</span>
+      {{#Case}}
       <span class="case-pill case-{{Case_Type}}">{{Case}}</span>
+      {{/Case}}
     </div>
     <div class="meaning-subtitle">{{Meaning_EN}}</div>
   </div>
@@ -549,11 +582,12 @@ BACK_TEMPLATE = """
 def create_anki_model():
     return genanki.Model(
         MODEL_ID,
-        'German Preposition Combination (Frequency Sorted)',
+        'German Preposition Suite (Hierarchical & Frequency Sorted)',
         fields=[
             {'name': 'Rank'},
             {'name': 'Category'},
             {'name': 'Word'},
+            {'name': 'Synonym'},
             {'name': 'Preposition'},
             {'name': 'Case'},
             {'name': 'Case_Type'},
@@ -564,6 +598,7 @@ def create_anki_model():
             {'name': 'Question_Structure'},
             {'name': 'Other_Prepositions'},
             {'name': 'Grammar_Notes'},
+            {'name': 'Prompt_Text'},
             {'name': 'Level'},
         ],
         templates=[
@@ -574,7 +609,7 @@ def create_anki_model():
             },
         ],
         css=CARD_CSS,
-        sort_field_index=0,  # Sort by Rank so Anki displays by frequency!
+        sort_field_index=0,  # Sort by Rank field
     )
 
 def prepare_verb_entries():
@@ -606,11 +641,18 @@ def prepare_verb_entries():
                 other_list.append(f"• <b>{sibling['verb']} + {sibling['prep']} {sibling['case']}</b>: {sibling['meaning_en']}")
 
         other_preps_html = "<br>".join(other_list) if other_list else ""
+        tags = [
+            f"level::{level}",
+            "category::verb",
+            f"prep::{prep.lower()}",
+            f"case::{case_type}"
+        ]
 
         processed.append({
             'rank': rank_str,
             'category': 'Verb',
             'word': verb,
+            'synonym': '',
             'prep': prep,
             'case': case,
             'case_type': case_type,
@@ -621,7 +663,9 @@ def prepare_verb_entries():
             'question_structure': question_structure,
             'other_prepositions': other_preps_html,
             'grammar_notes': grammar_notes,
+            'prompt_text': 'What is the <b>preposition</b> and <b>case</b>?',
             'level': level,
+            'tags': tags,
             'raw_sentence_de': item['sentence_de'].replace('{PREP}', prep),
             'group': item['verb_group'],
             'freq_rank': item['verb_rank']
@@ -658,11 +702,18 @@ def prepare_adjective_entries():
                 other_list.append(f"• <b>{sibling['adjective']} + {sibling['prep']} {sibling['case']}</b>: {sibling['meaning_en']}")
 
         other_preps_html = "<br>".join(other_list) if other_list else ""
+        tags = [
+            f"level::{level}",
+            "category::adjective",
+            f"prep::{prep.lower()}",
+            f"case::{case_type}"
+        ]
 
         processed.append({
             'rank': rank_str,
             'category': 'Adjective',
             'word': adjective,
+            'synonym': '',
             'prep': prep,
             'case': case,
             'case_type': case_type,
@@ -673,7 +724,9 @@ def prepare_adjective_entries():
             'question_structure': question_structure,
             'other_prepositions': other_preps_html,
             'grammar_notes': grammar_notes,
+            'prompt_text': 'What is the <b>preposition</b> and <b>case</b>?',
             'level': level,
+            'tags': tags,
             'raw_sentence_de': item['sentence_de'].replace('{PREP}', prep),
             'group': item['adj_group'],
             'freq_rank': item['adj_rank']
@@ -681,46 +734,172 @@ def prepare_adjective_entries():
 
     return processed
 
-def build_combined_anki_deck(verb_entries, adj_entries):
+def prepare_noun_entries():
+    groups = defaultdict(list)
+    for item in RAW_NOUN_DATA:
+        groups[item['noun_group']].append(item)
+
+    sorted_raw = sorted(RAW_NOUN_DATA, key=lambda x: (x['noun_rank'], x['noun_group'], x['meaning_en']))
+
+    processed = []
+    for idx, item in enumerate(sorted_raw, start=1):
+        rank_str = f"N-{idx:03d}"
+        noun = item['noun']
+        prep = item['prep']
+        case = item['case']
+        case_type = item['case_type']
+        meaning_en = item['meaning_en']
+        level = item['level']
+        grammar_notes = item['grammar_notes']
+        question_structure = item['question_structure']
+
+        sentence_cloze = item['sentence_de'].replace('{PREP}', '<span class="blank">[ &hellip; ]</span>')
+        sentence_full = item['sentence_de'].replace('{PREP}', f'<span class="highlight-prep">{prep}</span>')
+        sentence_en = item['sentence_en']
+
+        other_list = []
+        for sibling in groups[item['noun_group']]:
+            if (sibling['noun'], sibling['prep'], sibling['case']) != (noun, prep, case):
+                other_list.append(f"• <b>{sibling['noun']} + {sibling['prep']} {sibling['case']}</b>: {sibling['meaning_en']}")
+
+        other_preps_html = "<br>".join(other_list) if other_list else ""
+        tags = [
+            f"level::{level}",
+            "category::noun",
+            f"prep::{prep.lower()}",
+            f"case::{case_type}"
+        ]
+
+        processed.append({
+            'rank': rank_str,
+            'category': 'Noun',
+            'word': noun,
+            'synonym': '',
+            'prep': prep,
+            'case': case,
+            'case_type': case_type,
+            'meaning_en': meaning_en,
+            'sentence_cloze': sentence_cloze,
+            'sentence_full': sentence_full,
+            'sentence_en': sentence_en,
+            'question_structure': question_structure,
+            'other_prepositions': other_preps_html,
+            'grammar_notes': grammar_notes,
+            'prompt_text': 'What is the <b>preposition</b> and <b>case</b>?',
+            'level': level,
+            'tags': tags,
+            'raw_sentence_de': item['sentence_de'].replace('{PREP}', prep),
+            'group': item['noun_group'],
+            'freq_rank': item['noun_rank']
+        })
+
+    return processed
+
+def prepare_idiom_entries():
+    groups = defaultdict(list)
+    for item in RAW_IDIOM_DATA:
+        groups[item['idiom_group']].append(item)
+
+    sorted_raw = sorted(RAW_IDIOM_DATA, key=lambda x: (x['idiom_rank'], x['idiom_group'], x['meaning_en']))
+
+    processed = []
+    for idx, item in enumerate(sorted_raw, start=1):
+        rank_str = f"I-{idx:03d}"
+        idiom = item['idiom']
+        phrase_cloze = item['phrase_cloze']
+        prep = item['prep']
+        case = item['case']
+        case_type = item['case_type']
+        simple_verb = item['simple_verb']
+        meaning_en = item['meaning_en']
+        level = item['level']
+        grammar_notes = item['grammar_notes']
+
+        # Blank out the preposition and noun phrase
+        sentence_cloze = item['sentence_de'].replace('{PHRASE}', '<span class="blank">[ &hellip; ]</span>')
+        sentence_full = item['sentence_de'].replace('{PHRASE}', f'<span class="highlight-prep">{phrase_cloze}</span>')
+        sentence_en = item['sentence_en']
+
+        other_list = []
+        for sibling in groups[item['idiom_group']]:
+            if sibling['idiom'] != idiom:
+                other_list.append(f"• <b>{sibling['idiom']}</b> (= {sibling['simple_verb']}): {sibling['meaning_en']}")
+
+        other_preps_html = "<br>".join(other_list) if other_list else ""
+        tags = [
+            f"level::{level}",
+            "category::idiom",
+            f"prep::{prep.lower()}",
+            f"case::{case_type}"
+        ]
+
+        processed.append({
+            'rank': rank_str,
+            'category': 'Noun-Verb Idiom',
+            'word': idiom,
+            'synonym': simple_verb,
+            'prep': phrase_cloze,
+            'case': case,
+            'case_type': case_type,
+            'meaning_en': meaning_en,
+            'sentence_cloze': sentence_cloze,
+            'sentence_full': sentence_full,
+            'sentence_en': sentence_en,
+            'question_structure': '',
+            'other_prepositions': other_preps_html,
+            'grammar_notes': grammar_notes,
+            'prompt_text': 'What is the <b>prepositional phrase</b>?',
+            'level': level,
+            'tags': tags,
+            'raw_sentence_de': item['sentence_de'].replace('{PHRASE}', phrase_cloze),
+            'group': item['idiom_group'],
+            'freq_rank': item['idiom_rank']
+        })
+
+    return processed
+
+def build_master_anki_deck(verb_entries, adj_entries, noun_entries, idiom_entries):
     model = create_anki_model()
 
-    # Master Deck hierarchy
+    # 4-subdeck hierarchical structure
     verbs_deck = genanki.Deck(VERBS_DECK_ID, 'German::Prepositions::01 - Verbs with Prepositions')
     adj_deck = genanki.Deck(ADJECTIVES_DECK_ID, 'German::Prepositions::02 - Adjectives with Prepositions')
+    nouns_deck = genanki.Deck(NOUNS_DECK_ID, 'German::Prepositions::03 - Nouns with Prepositions')
+    idioms_deck = genanki.Deck(IDIOMS_DECK_ID, 'German::Prepositions::04 - Noun-Verb Idioms')
 
-    for e in verb_entries:
-        fields = [
-            e['rank'], e['category'], e['word'], e['prep'], e['case'], e['case_type'],
-            e['meaning_en'], e['sentence_cloze'], e['sentence_full'], e['sentence_en'],
-            e['question_structure'], e['other_prepositions'], e['grammar_notes'], e['level']
-        ]
-        guid = genanki.guid_for(e['rank'], e['word'], e['prep'], e['case'])
-        verbs_deck.add_note(genanki.Note(model=model, fields=fields, guid=guid))
+    def add_notes(deck, entries):
+        for e in entries:
+            fields = [
+                e['rank'], e['category'], e['word'], e['synonym'], e['prep'],
+                e['case'], e['case_type'], e['meaning_en'], e['sentence_cloze'],
+                e['sentence_full'], e['sentence_en'], e['question_structure'],
+                e['other_prepositions'], e['grammar_notes'], e['prompt_text'], e['level']
+            ]
+            guid = genanki.guid_for(e['rank'], e['word'], e['prep'], e['case'])
+            note = genanki.Note(model=model, fields=fields, tags=e['tags'], guid=guid)
+            deck.add_note(note)
 
-    for e in adj_entries:
-        fields = [
-            e['rank'], e['category'], e['word'], e['prep'], e['case'], e['case_type'],
-            e['meaning_en'], e['sentence_cloze'], e['sentence_full'], e['sentence_en'],
-            e['question_structure'], e['other_prepositions'], e['grammar_notes'], e['level']
-        ]
-        guid = genanki.guid_for(e['rank'], e['word'], e['prep'], e['case'])
-        adj_deck.add_note(genanki.Note(model=model, fields=fields, guid=guid))
+    add_notes(verbs_deck, verb_entries)
+    add_notes(adj_deck, adj_entries)
+    add_notes(nouns_deck, noun_entries)
+    add_notes(idioms_deck, idiom_entries)
 
-    package = genanki.Package([verbs_deck, adj_deck])
+    master_package = genanki.Package([verbs_deck, adj_deck, nouns_deck, idioms_deck])
     apkg_file = 'German_Prepositions_Master_Deck.apkg'
-    package.write_to_file(apkg_file)
+    master_package.write_to_file(apkg_file)
 
-    # Also keep the verbs-only package updated for backwards compatibility
+    # Legacy verbs-only package kept for convenience
     genanki.Package(verbs_deck).write_to_file('German_Verbs_with_Prepositions.apkg')
 
-    print(f"Generated Anki Master Package: {apkg_file} ({len(verb_entries)} verbs + {len(adj_entries)} adjectives = {len(verb_entries) + len(adj_entries)} total cards)")
+    total_count = len(verb_entries) + len(adj_entries) + len(noun_entries) + len(idiom_entries)
+    print(f"Generated Master Deck: {apkg_file} ({total_count} cards across 4 subdecks)")
     return apkg_file
 
-def export_tsv_files(verb_entries, adj_entries):
+def export_all_tsv(verb_entries, adj_entries, noun_entries, idiom_entries):
     headers = [
-        'Rank', 'Category', 'Word', 'Preposition', 'Case', 'Case_Type', 'Meaning_EN',
+        'Rank', 'Category', 'Word', 'Synonym', 'Preposition', 'Case', 'Case_Type', 'Meaning_EN',
         'Sentence_Cloze', 'Sentence_Full', 'Sentence_EN', 'Question_Structure',
-        'Other_Prepositions', 'Grammar_Notes', 'Level'
+        'Other_Prepositions', 'Grammar_Notes', 'Prompt_Text', 'Level', 'Tags'
     ]
 
     def write_tsv(filename, entries):
@@ -729,20 +908,24 @@ def export_tsv_files(verb_entries, adj_entries):
             writer.writerow(headers)
             for e in entries:
                 writer.writerow([
-                    e['rank'], e['category'], e['word'], e['prep'], e['case'], e['case_type'],
-                    e['meaning_en'], e['sentence_cloze'], e['sentence_full'], e['sentence_en'],
-                    e['question_structure'], e['other_prepositions'], e['grammar_notes'], e['level']
+                    e['rank'], e['category'], e['word'], e['synonym'], e['prep'],
+                    e['case'], e['case_type'], e['meaning_en'], e['sentence_cloze'],
+                    e['sentence_full'], e['sentence_en'], e['question_structure'],
+                    e['other_prepositions'], e['grammar_notes'], e['prompt_text'], e['level'],
+                    " ".join(e['tags'])
                 ])
-        print(f"Generated TSV file: {filename}")
+        print(f"Generated TSV: {filename}")
 
     write_tsv('german_verbs_with_prepositions.tsv', verb_entries)
     write_tsv('german_adjectives_with_prepositions.tsv', adj_entries)
-    write_tsv('german_all_prepositions_combined.tsv', verb_entries + adj_entries)
+    write_tsv('german_nouns_with_prepositions.tsv', noun_entries)
+    write_tsv('german_noun_verb_idioms.tsv', idiom_entries)
+    write_tsv('german_all_prepositions_combined.tsv', verb_entries + adj_entries + noun_entries + idiom_entries)
 
-def export_csv_files(verb_entries, adj_entries):
+def export_all_csv(verb_entries, adj_entries, noun_entries, idiom_entries):
     headers = [
-        'Rank', 'Category', 'Word', 'Preposition', 'Case', 'Meaning_EN',
-        'Example_German', 'Example_English', 'Question_Form', 'Level', 'Grammar_Notes'
+        'Rank', 'Category', 'Word', 'Synonym', 'Preposition', 'Case', 'Meaning_EN',
+        'Example_German', 'Example_English', 'Level', 'Grammar_Notes', 'Tags'
     ]
 
     def write_csv(filename, entries):
@@ -751,35 +934,44 @@ def export_csv_files(verb_entries, adj_entries):
             writer.writerow(headers)
             for e in entries:
                 writer.writerow([
-                    e['rank'], e['category'], e['word'], e['prep'], e['case'], e['meaning_en'],
-                    e['raw_sentence_de'], e['sentence_en'], e['question_structure'],
-                    e['level'], e['grammar_notes']
+                    e['rank'], e['category'], e['word'], e['synonym'], e['prep'],
+                    e['case'], e['meaning_en'], e['raw_sentence_de'], e['sentence_en'],
+                    e['level'], e['grammar_notes'], " ".join(e['tags'])
                 ])
-        print(f"Generated CSV file: {filename}")
+        print(f"Generated CSV: {filename}")
 
     write_csv('german_verbs_with_prepositions.csv', verb_entries)
     write_csv('german_adjectives_with_prepositions.csv', adj_entries)
-    write_csv('german_all_prepositions_combined.csv', verb_entries + adj_entries)
+    write_csv('german_nouns_with_prepositions.csv', noun_entries)
+    write_csv('german_noun_verb_idioms.csv', idiom_entries)
+    write_csv('german_all_prepositions_combined.csv', verb_entries + adj_entries + noun_entries + idiom_entries)
 
-def export_json_files(verb_entries, adj_entries):
+def export_all_json(verb_entries, adj_entries, noun_entries, idiom_entries):
     with open('german_verbs_with_prepositions.json', 'w', encoding='utf-8') as f:
         json.dump(verb_entries, f, indent=2, ensure_ascii=False)
     with open('german_adjectives_with_prepositions.json', 'w', encoding='utf-8') as f:
         json.dump(adj_entries, f, indent=2, ensure_ascii=False)
+    with open('german_nouns_with_prepositions.json', 'w', encoding='utf-8') as f:
+        json.dump(noun_entries, f, indent=2, ensure_ascii=False)
+    with open('german_noun_verb_idioms.json', 'w', encoding='utf-8') as f:
+        json.dump(idiom_entries, f, indent=2, ensure_ascii=False)
     with open('german_all_prepositions_combined.json', 'w', encoding='utf-8') as f:
-        json.dump(verb_entries + adj_entries, f, indent=2, ensure_ascii=False)
-    print("Generated all JSON files (verbs, adjectives, combined).")
+        json.dump(verb_entries + adj_entries + noun_entries + idiom_entries, f, indent=2, ensure_ascii=False)
+    print("Generated all JSON files.")
 
 def main():
     verb_entries = prepare_verb_entries()
     adj_entries = prepare_adjective_entries()
+    noun_entries = prepare_noun_entries()
+    idiom_entries = prepare_idiom_entries()
 
-    build_combined_anki_deck(verb_entries, adj_entries)
-    export_tsv_files(verb_entries, adj_entries)
-    export_csv_files(verb_entries, adj_entries)
-    export_json_files(verb_entries, adj_entries)
+    build_master_anki_deck(verb_entries, adj_entries, noun_entries, idiom_entries)
+    export_all_tsv(verb_entries, adj_entries, noun_entries, idiom_entries)
+    export_all_csv(verb_entries, adj_entries, noun_entries, idiom_entries)
+    export_all_json(verb_entries, adj_entries, noun_entries, idiom_entries)
 
-    print(f"\nAll decks and data files successfully built: {len(verb_entries)} verbs + {len(adj_entries)} adjectives = {len(verb_entries) + len(adj_entries)} total cards!")
+    total = len(verb_entries) + len(adj_entries) + len(noun_entries) + len(idiom_entries)
+    print(f"\nSuccessfully built entire suite: {len(verb_entries)} verbs + {len(adj_entries)} adjectives + {len(noun_entries)} nouns + {len(idiom_entries)} idioms = {total} cards!")
 
 if __name__ == '__main__':
     main()

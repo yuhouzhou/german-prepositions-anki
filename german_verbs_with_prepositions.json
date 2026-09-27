@@ -3,6 +3,7 @@
     "rank": "V-001",
     "category": "Verb",
     "word": "kommen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -13,7 +14,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "• <b>ankommen + auf + Akk.</b>: to depend on / to be a matter of<br>• <b>kommen + auf + Akk.</b>: to think of / to hit upon (an idea or solution)",
     "grammar_notes": "Often used with abstract nouns: zum Schluss kommen, zur Ruhe kommen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Nach langer Diskussion kamen wir zu einem Entschluss.",
     "group": "kommen",
     "freq_rank": 1
@@ -22,6 +30,7 @@
     "rank": "V-002",
     "category": "Verb",
     "word": "ankommen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -32,7 +41,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "• <b>kommen + auf + Akk.</b>: to think of / to hit upon (an idea or solution)<br>• <b>kommen + zu + Dat.</b>: to arrive at (a conclusion) / to come to",
     "grammar_notes": "Impersonal expression 'es kommt an auf...'. Synonymous with 'abhängen von'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Es kommt auf das Wetter an, ob wir grillen.",
     "group": "kommen",
     "freq_rank": 1
@@ -41,6 +57,7 @@
     "rank": "V-003",
     "category": "Verb",
     "word": "kommen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -51,7 +68,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "• <b>ankommen + auf + Akk.</b>: to depend on / to be a matter of<br>• <b>kommen + zu + Dat.</b>: to arrive at (a conclusion) / to come to",
     "grammar_notes": "Idiomatic for suddenly getting an idea or remembering something.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wie bist du denn auf diese geniale Idee gekommen?",
     "group": "kommen",
     "freq_rank": 1
@@ -60,6 +84,7 @@
     "rank": "V-004",
     "category": "Verb",
     "word": "ausgehen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -70,7 +95,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>gehen + um + Akk.</b>: to be about / to concern",
     "grammar_notes": "Very common in academic and formal German for stating assumptions.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wir gehen von einem erfolgreichen Abschluss aus.",
     "group": "gehen",
     "freq_rank": 2
@@ -79,6 +111,7 @@
     "rank": "V-005",
     "category": "Verb",
     "word": "gehen",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -89,7 +122,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>ausgehen + von + Dat.</b>: to assume / to start from (a premise)",
     "grammar_notes": "Impersonal phrase: 'Es geht um + Akk.' Crucial for summarizing texts or plots.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "In diesem Film geht es um eine mutige Detektivin.",
     "group": "gehen",
     "freq_rank": 2
@@ -98,6 +138,7 @@
     "rank": "V-006",
     "category": "Verb",
     "word": "entstehen",
+    "synonym": "",
     "prep": "aus",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -108,7 +149,14 @@
     "question_structure": "Woraus? • Daraus",
     "other_prepositions": "• <b>stehen + zu + Dat.</b>: to have an opinion on / to stand by",
     "grammar_notes": "Indicates the source or root cause of a development.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::aus",
+      "case::dat"
+    ],
     "raw_sentence_de": "Aus einem kleinen Missverständnis entstand aus der Streit.",
     "group": "stehen",
     "freq_rank": 3
@@ -117,6 +165,7 @@
     "rank": "V-007",
     "category": "Verb",
     "word": "stehen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -127,7 +176,14 @@
     "question_structure": "Wozu? • Dazu / Zu wem?",
     "other_prepositions": "• <b>entstehen + aus + Dat.</b>: to arise from / to develop out of",
     "grammar_notes": "Expresses someone's attitude or commitment toward a topic or person.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wie stehst du zu dem neuen Vorschlag?",
     "group": "stehen",
     "freq_rank": 3
@@ -136,6 +192,7 @@
     "rank": "V-008",
     "category": "Verb",
     "word": "absehen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -146,7 +203,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>ansehen + als + Akk.</b>: to regard as / to consider as",
     "grammar_notes": "Often used in the fixed idiom 'abgesehen von + Dat' (apart from / aside from).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Polizei sah diesmal von einer Geldstrafe ab.",
     "group": "sehen",
     "freq_rank": 4
@@ -155,6 +219,7 @@
     "rank": "V-009",
     "category": "Verb",
     "word": "ansehen",
+    "synonym": "",
     "prep": "als",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -165,7 +230,14 @@
     "question_structure": "Als was? • Als solche(n)",
     "other_prepositions": "• <b>absehen + von + Dat.</b>: to refrain from / to disregard",
     "grammar_notes": "'Als' takes the same case as the object ('sie' = Akk -> 'seine beste Ratgeberin' = Akk).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::als",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er sieht sie als seine beste Ratgeberin an.",
     "group": "sehen",
     "freq_rank": 4
@@ -174,6 +246,7 @@
     "rank": "V-010",
     "category": "Verb",
     "word": "sich einlassen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -184,7 +257,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Reflexive verb (sich einlassen). Implies willingness to engage in something uncertain.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er wollte sich nicht auf dieses riskante Geschäft einlassen.",
     "group": "lassen",
     "freq_rank": 5
@@ -193,6 +273,7 @@
     "rank": "V-011",
     "category": "Verb",
     "word": "denken",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -203,7 +284,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>denken + an + Akk.</b>: to think of / to remember<br>• <b>nachdenken + über + Akk.</b>: to ponder / to reflect on in depth",
     "grammar_notes": "Expresses an opinion or judgment (synonymous with 'meinen zu').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Was denkst du eigentlich über seinen Vorschlag?",
     "group": "denken",
     "freq_rank": 6
@@ -212,6 +300,7 @@
     "rank": "V-012",
     "category": "Verb",
     "word": "nachdenken",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -222,7 +311,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>denken + an + Akk.</b>: to think of / to remember<br>• <b>denken + über + Akk.</b>: to have an opinion about / to reflect on",
     "grammar_notes": "Separable verb: implies deeper, continuous contemplation than 'denken an'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich muss in Ruhe über dieses Angebot nachdenken.",
     "group": "denken",
     "freq_rank": 6
@@ -231,6 +327,7 @@
     "rank": "V-013",
     "category": "Verb",
     "word": "denken",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -241,7 +338,14 @@
     "question_structure": "Woran? • Daran / An wen?",
     "other_prepositions": "• <b>denken + über + Akk.</b>: to have an opinion about / to reflect on<br>• <b>nachdenken + über + Akk.</b>: to ponder / to reflect on in depth",
     "grammar_notes": "Refers to having someone/something in mind, or remembering to do something.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich muss jeden Tag an dich denken.",
     "group": "denken",
     "freq_rank": 6
@@ -250,6 +354,7 @@
     "rank": "V-014",
     "category": "Verb",
     "word": "abnehmen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -260,7 +365,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "• <b>teilnehmen + an + Dat.</b>: to participate in / to take part in<br>• <b>zunehmen + an + Dat.</b>: to increase in / to gain in",
     "grammar_notes": "Opposite of 'zunehmen an'. Takes Dativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Begeisterung nimmt leider an Intensität ab.",
     "group": "nehmen",
     "freq_rank": 7
@@ -269,6 +381,7 @@
     "rank": "V-015",
     "category": "Verb",
     "word": "zunehmen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -279,7 +392,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "• <b>teilnehmen + an + Dat.</b>: to participate in / to take part in<br>• <b>abnehmen + an + Dat.</b>: to decrease in / to lose (quality/measure)",
     "grammar_notes": "Used with abstract qualities: an Bedeutung zunehmen (gain importance).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Sturm nimmt stetig an Stärke zu.",
     "group": "nehmen",
     "freq_rank": 7
@@ -288,6 +408,7 @@
     "rank": "V-016",
     "category": "Verb",
     "word": "teilnehmen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -298,7 +419,14 @@
     "question_structure": "Woran? • Daran / An wem?",
     "other_prepositions": "• <b>zunehmen + an + Dat.</b>: to increase in / to gain in<br>• <b>abnehmen + an + Dat.</b>: to decrease in / to lose (quality/measure)",
     "grammar_notes": "Separable verb (teil|nehmen). Always takes 'an + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Viele Studenten nehmen an dem Sprachkurs teil.",
     "group": "nehmen",
     "freq_rank": 7
@@ -307,6 +435,7 @@
     "rank": "V-017",
     "category": "Verb",
     "word": "glauben",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -317,7 +446,14 @@
     "question_structure": "Woran? • Daran / An wen?",
     "other_prepositions": "",
     "grammar_notes": "Note: 'jemandem (Dat) glauben' means to believe someone's words; 'an + Akk glauben' means to have faith in.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie glaubt fest an das Gute im Menschen.",
     "group": "glauben",
     "freq_rank": 8
@@ -326,6 +462,7 @@
     "rank": "V-018",
     "category": "Verb",
     "word": "sich halten",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -336,7 +473,14 @@
     "question_structure": "Woran? • Daran / An wen?",
     "other_prepositions": "• <b>halten + von + Dat.</b>: to think of / to have an opinion of<br>• <b>halten + für + Akk.</b>: to consider to be / to deem to be",
     "grammar_notes": "Reflexive verb (sich halten). Meaning: sticking strictly to a guideline.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Alle Autofahrer müssen sich an das Tempolimit halten.",
     "group": "halten",
     "freq_rank": 9
@@ -345,6 +489,7 @@
     "rank": "V-019",
     "category": "Verb",
     "word": "halten",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -355,7 +500,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>halten + von + Dat.</b>: to think of / to have an opinion of<br>• <b>sich halten + an + Akk.</b>: to abide by / to adhere to (rules, agreements)",
     "grammar_notes": "Takes Akkusativ for both the direct object and the prepositional phrase.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich halte diesen Plan für eine ausgezeichnete Idee.",
     "group": "halten",
     "freq_rank": 9
@@ -364,6 +516,7 @@
     "rank": "V-020",
     "category": "Verb",
     "word": "halten",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -374,7 +527,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "• <b>halten + für + Akk.</b>: to consider to be / to deem to be<br>• <b>sich halten + an + Akk.</b>: to abide by / to adhere to (rules, agreements)",
     "grammar_notes": "Standard conversational formula: 'Was hältst du von...?'",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Was hältst du von meinem neuen Haarschnitt?",
     "group": "halten",
     "freq_rank": 9
@@ -383,6 +543,7 @@
     "rank": "V-021",
     "category": "Verb",
     "word": "bringen",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -393,7 +554,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>bringen + zu + Dat.</b>: to lead someone to / to prompt someone to",
     "grammar_notes": "Idiom: 'jemanden um den Verstand / Schlaf bringen'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der ständige Lärm bringt mich um den Schlaf.",
     "group": "bringen",
     "freq_rank": 10
@@ -402,6 +570,7 @@
     "rank": "V-022",
     "category": "Verb",
     "word": "bringen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -412,7 +581,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "• <b>bringen + um + Akk.</b>: to deprive of / to rob someone of",
     "grammar_notes": "Often used with a direct object: jemanden zu etwas bringen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Was hat dich zu dieser schweren Entscheidung gebracht?",
     "group": "bringen",
     "freq_rank": 10
@@ -421,6 +597,7 @@
     "rank": "V-023",
     "category": "Verb",
     "word": "führen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -431,7 +608,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Cause-and-effect relationship. Very high frequency in writing.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Harte Arbeit führt oft zu großem Erfolg.",
     "group": "führen",
     "freq_rank": 11
@@ -440,6 +624,7 @@
     "rank": "V-024",
     "category": "Verb",
     "word": "absprechen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -450,7 +635,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "• <b>sprechen + über + Akk.</b>: to talk about (a topic/subject)<br>• <b>sprechen + von + Dat.</b>: to speak of / to mention / to tell of<br>• <b>sprechen + mit + Dat.</b>: to speak with / to converse with",
     "grammar_notes": "Separable verb (ab|sprechen). To mutually arrange or agree.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich spreche den Urlaubsplan mit meinen Kollegen ab.",
     "group": "sprechen",
     "freq_rank": 12
@@ -459,6 +651,7 @@
     "rank": "V-025",
     "category": "Verb",
     "word": "sprechen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -469,7 +662,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "• <b>sprechen + über + Akk.</b>: to talk about (a topic/subject)<br>• <b>sprechen + mit + Dat.</b>: to speak with / to converse with<br>• <b>absprechen + mit + Dat.</b>: to coordinate with / to agree on with",
     "grammar_notes": "Focuses on referring to or recalling someone or an experience.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Mein Großvater spricht oft von seinen alten Freunden.",
     "group": "sprechen",
     "freq_rank": 12
@@ -478,6 +678,7 @@
     "rank": "V-026",
     "category": "Verb",
     "word": "sprechen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -488,7 +689,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "• <b>sprechen + über + Akk.</b>: to talk about (a topic/subject)<br>• <b>sprechen + von + Dat.</b>: to speak of / to mention / to tell of<br>• <b>absprechen + mit + Dat.</b>: to coordinate with / to agree on with",
     "grammar_notes": "Always takes 'mit + Dativ' for the conversational partner.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Hast du schon mit deiner Lehrerin gesprochen?",
     "group": "sprechen",
     "freq_rank": 12
@@ -497,6 +705,7 @@
     "rank": "V-027",
     "category": "Verb",
     "word": "sprechen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -507,7 +716,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "• <b>sprechen + von + Dat.</b>: to speak of / to mention / to tell of<br>• <b>sprechen + mit + Dat.</b>: to speak with / to converse with<br>• <b>absprechen + mit + Dat.</b>: to coordinate with / to agree on with",
     "grammar_notes": "Focuses on the content of the conversation.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir müssen dringend über unsere Zukunft sprechen.",
     "group": "sprechen",
     "freq_rank": 12
@@ -516,6 +732,7 @@
     "rank": "V-028",
     "category": "Verb",
     "word": "zeigen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -526,7 +743,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Physical pointing gesture with finger or indicator.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Das kleine Kind zeigte auf den bunten Schmetterling.",
     "group": "zeigen",
     "freq_rank": 13
@@ -535,6 +759,7 @@
     "rank": "V-029",
     "category": "Verb",
     "word": "leben",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -545,7 +770,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>leben + von + Dat.</b>: to live on / to subsist on",
     "grammar_notes": "Expresses true life dedication or passion.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie lebt ganz für ihre Musik und ihre Kunst.",
     "group": "leben",
     "freq_rank": 14
@@ -554,6 +786,7 @@
     "rank": "V-030",
     "category": "Verb",
     "word": "leben",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -564,7 +797,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>leben + für + Akk.</b>: to live for (a passion, purpose)",
     "grammar_notes": "Financial subsistence or sustenance.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er kann kaum von seinem geringen Einkommen leben.",
     "group": "leben",
     "freq_rank": 14
@@ -573,6 +813,7 @@
     "rank": "V-031",
     "category": "Verb",
     "word": "fahren",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -583,7 +824,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "All vehicles in German take 'mit + Dativ' (mit dem Bus, mit dem Zug).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Morgens fahre ich am liebsten mit der U-Bahn.",
     "group": "fahren",
     "freq_rank": 15
@@ -592,6 +840,7 @@
     "rank": "V-032",
     "category": "Verb",
     "word": "fragen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -602,7 +851,14 @@
     "question_structure": "Wonach? • Danach / Nach wem?",
     "other_prepositions": "• <b>fragen + um + Akk.</b>: to ask for (advice / help)",
     "grammar_notes": "Standard formula: jemanden (Akk) nach etwas (Dat) fragen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ein Tourist fragte mich nach dem kürzesten Weg zum Bahnhof.",
     "group": "fragen",
     "freq_rank": 16
@@ -611,6 +867,7 @@
     "rank": "V-033",
     "category": "Verb",
     "word": "fragen",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -621,7 +878,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>fragen + nach + Dat.</b>: to ask about / to inquire after",
     "grammar_notes": "Most commonly in the fixed idiom 'um Rat fragen'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie fragte ihren Mentor um Rat in dieser Angelegenheit.",
     "group": "fragen",
     "freq_rank": 16
@@ -630,6 +894,7 @@
     "rank": "V-034",
     "category": "Verb",
     "word": "gelten",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -640,7 +905,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>gelten + als + Nom.</b>: to be considered as / to count as",
     "grammar_notes": "Denotes the scope of validity of rules, laws, tickets.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Diese Sonderregelung gilt nur für neue Kunden.",
     "group": "gelten",
     "freq_rank": 17
@@ -649,6 +921,7 @@
     "rank": "V-035",
     "category": "Verb",
     "word": "gelten",
+    "synonym": "",
     "prep": "als",
     "case": "+ Nom.",
     "case_type": "nom",
@@ -659,7 +932,14 @@
     "question_structure": "Als was? • Als wer?",
     "other_prepositions": "• <b>gelten + für + Akk.</b>: to apply to / to be valid for",
     "grammar_notes": "'Als' takes Nominative when referring to the grammatical subject.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::als",
+      "case::nom"
+    ],
     "raw_sentence_de": "Er gilt weltweit als führender Experte für KI.",
     "group": "gelten",
     "freq_rank": 17
@@ -668,6 +948,7 @@
     "rank": "V-036",
     "category": "Verb",
     "word": "sich einstellen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -678,7 +959,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Reflexive verb (sich einstellen auf). Mentally getting ready for something.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir müssen uns auf plötzliche Veränderungen einstellen.",
     "group": "stellen",
     "freq_rank": 18
@@ -687,6 +975,7 @@
     "rank": "V-037",
     "category": "Verb",
     "word": "spielen",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -697,7 +986,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>spielen + mit + Dat.</b>: to play with",
     "grammar_notes": "Specifies the prize or stake at risk in a game.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die beiden Teams spielen um den Meistertitel.",
     "group": "spielen",
     "freq_rank": 19
@@ -706,6 +1002,7 @@
     "rank": "V-038",
     "category": "Verb",
     "word": "spielen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -716,7 +1013,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "• <b>spielen + um + Akk.</b>: to play for (money, stakes, championship)",
     "grammar_notes": "Literal or figurative ('mit dem Feuer spielen' = to play with fire).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Katze spielt begeistert mit dem Wollknäuel.",
     "group": "spielen",
     "freq_rank": 19
@@ -725,6 +1029,7 @@
     "rank": "V-039",
     "category": "Verb",
     "word": "arbeiten",
+    "synonym": "",
     "prep": "bei",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -735,7 +1040,14 @@
     "question_structure": "Bei wem?",
     "other_prepositions": "• <b>arbeiten + an + Dat.</b>: to work on (a project, task, book)<br>• <b>arbeiten + für + Akk.</b>: to work for (a client, employer, or cause)",
     "grammar_notes": "Used for the company/institution that employs someone.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::bei",
+      "case::dat"
+    ],
     "raw_sentence_de": "Mein Bruder arbeitet schon seit fünf Jahren bei BMW.",
     "group": "arbeiten",
     "freq_rank": 20
@@ -744,6 +1056,7 @@
     "rank": "V-040",
     "category": "Verb",
     "word": "arbeiten",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -754,7 +1067,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>arbeiten + an + Dat.</b>: to work on (a project, task, book)<br>• <b>arbeiten + bei + Dat.</b>: to work at / for (an employer or company)",
     "grammar_notes": "Emphasizes the beneficiary or contracting party.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie arbeitet als freie Journalistin für verschiedene Zeitungen.",
     "group": "arbeiten",
     "freq_rank": 20
@@ -763,6 +1083,7 @@
     "rank": "V-041",
     "category": "Verb",
     "word": "arbeiten",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -773,7 +1094,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "• <b>arbeiten + bei + Dat.</b>: to work at / for (an employer or company)<br>• <b>arbeiten + für + Akk.</b>: to work for (a client, employer, or cause)",
     "grammar_notes": "Always Dativ when indicating the task or project being worked upon.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Wissenschaftler arbeiten an einem neuen Impfstoff.",
     "group": "arbeiten",
     "freq_rank": 20
@@ -782,6 +1110,7 @@
     "rank": "V-042",
     "category": "Verb",
     "word": "folgen",
+    "synonym": "",
     "prep": "aus",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -792,7 +1121,14 @@
     "question_structure": "Woraus? • Daraus",
     "other_prepositions": "",
     "grammar_notes": "Logical consequence: 'Daraus folgt, dass...'",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::aus",
+      "case::dat"
+    ],
     "raw_sentence_de": "Aus dieser Analyse folgt aus den Daten eine klare Warnung.",
     "group": "folgen",
     "freq_rank": 21
@@ -801,6 +1137,7 @@
     "rank": "V-043",
     "category": "Verb",
     "word": "lernen",
+    "synonym": "",
     "prep": "aus",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -811,7 +1148,14 @@
     "question_structure": "Woraus? • Daraus",
     "other_prepositions": "",
     "grammar_notes": "Indicates the source of wisdom or lesson.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::aus",
+      "case::dat"
+    ],
     "raw_sentence_de": "Kluge Menschen lernen aus ihren eigenen Fehlern.",
     "group": "lernen",
     "freq_rank": 22
@@ -820,6 +1164,7 @@
     "rank": "V-044",
     "category": "Verb",
     "word": "sich verstehen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -830,7 +1175,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "• <b>verstehen + unter + Dat.</b>: to understand by (a concept or definition)",
     "grammar_notes": "Reflexive verb (sich gut/schlecht verstehen mit).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich verstehe mich hervorragend mit meinem neuen Mitbewohner.",
     "group": "verstehen",
     "freq_rank": 23
@@ -839,6 +1191,7 @@
     "rank": "V-045",
     "category": "Verb",
     "word": "verstehen",
+    "synonym": "",
     "prep": "unter",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -849,7 +1202,14 @@
     "question_structure": "Worunter? • Darunter",
     "other_prepositions": "• <b>sich verstehen + mit + Dat.</b>: to get along with (someone)",
     "grammar_notes": "Used when asking for definitions or subjective interpretations.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::unter",
+      "case::dat"
+    ],
     "raw_sentence_de": "Was verstehen Sie genau unter dem Begriff Nachhaltigkeit?",
     "group": "verstehen",
     "freq_rank": 23
@@ -858,6 +1218,7 @@
     "rank": "V-046",
     "category": "Verb",
     "word": "sich einsetzen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -868,7 +1229,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>sich auseinandersetzen + mit + Dat.</b>: to deal with / to grapple with / to examine",
     "grammar_notes": "Reflexive verb (sich einsetzen für). Dedicating active effort to a cause.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Organisation setzt sich entschlossen für den Tierschutz ein.",
     "group": "setzen",
     "freq_rank": 24
@@ -877,6 +1245,7 @@
     "rank": "V-047",
     "category": "Verb",
     "word": "sich auseinandersetzen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -887,7 +1256,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "• <b>sich einsetzen + für + Akk.</b>: to advocate for / to champion / to stand up for",
     "grammar_notes": "Crucial academic verb for critical engagement with a subject.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Philosoph setzt sich tiefgehend mit ethischen Fragen auseinander.",
     "group": "setzen",
     "freq_rank": 24
@@ -896,6 +1272,7 @@
     "rank": "V-048",
     "category": "Verb",
     "word": "beginnen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -906,7 +1283,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "",
     "grammar_notes": "Synonymous with 'anfangen mit + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wir beginnen die Besprechung mit einer kurzen Vorstellungsrunde.",
     "group": "beginnen",
     "freq_rank": 25
@@ -915,6 +1299,7 @@
     "rank": "V-049",
     "category": "Verb",
     "word": "erzählen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -925,7 +1310,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "• <b>erzählen + von + Dat.</b>: to tell about / to narrate (events or experiences)",
     "grammar_notes": "'über + Akk' focuses on specific facts/details of a subject.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der Reiseleiter erzählte viel Interessantes über die alte Burg.",
     "group": "erzählen",
     "freq_rank": 26
@@ -934,6 +1326,7 @@
     "rank": "V-050",
     "category": "Verb",
     "word": "erzählen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -944,7 +1337,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "• <b>erzählen + über + Akk.</b>: to tell / report about (factual topic or detailed info)",
     "grammar_notes": "General recounting of memories or stories.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Oma erzählte uns stundenlang von ihrer Jugend auf dem Land.",
     "group": "erzählen",
     "freq_rank": 26
@@ -953,6 +1353,7 @@
     "rank": "V-051",
     "category": "Verb",
     "word": "schreiben",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -963,7 +1364,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "• <b>schreiben + an + Akk.</b>: to write to (a recipient)<br>• <b>schreiben + über + Akk.</b>: to write about (a topic)",
     "grammar_notes": "Note the contrast: 'an + Dat' means being in the process of composing a work!",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der bekannte Schriftsteller schreibt schon seit Jahren an einem neuen Roman.",
     "group": "schreiben",
     "freq_rank": 27
@@ -972,6 +1380,7 @@
     "rank": "V-052",
     "category": "Verb",
     "word": "schreiben",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -982,7 +1391,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>schreiben + an + Akk.</b>: to write to (a recipient)<br>• <b>schreiben + an + Dat.</b>: to work on writing (a book, dissertation, article)",
     "grammar_notes": "Denotes the theme or topic of the written piece.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er schreibt seine Masterarbeit über erneuerbare Energien.",
     "group": "schreiben",
     "freq_rank": 27
@@ -991,6 +1407,7 @@
     "rank": "V-053",
     "category": "Verb",
     "word": "schreiben",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1001,7 +1418,14 @@
     "question_structure": "An wen?",
     "other_prepositions": "• <b>schreiben + an + Dat.</b>: to work on writing (a book, dissertation, article)<br>• <b>schreiben + über + Akk.</b>: to write about (a topic)",
     "grammar_notes": "Recipient takes Akkusativ: 'an + Akk' (alternatively just Dativ without prep).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie schreibt eine lange Nachricht an ihre beste Freundin.",
     "group": "schreiben",
     "freq_rank": 27
@@ -1010,6 +1434,7 @@
     "rank": "V-054",
     "category": "Verb",
     "word": "sich handeln",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1020,7 +1445,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>handeln + von + Dat.</b>: to be about (plot, theme of a story/book/movie)<br>• <b>handeln + mit + Dat.</b>: to trade in / to deal with (goods, commodities)",
     "grammar_notes": "Impersonal reflexive: always 'es handelt sich um + Akk'. Used for formal definitions.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Bei dieser Angelegenheit handelt es sich um ein ernstes Problem.",
     "group": "handeln",
     "freq_rank": 28
@@ -1029,6 +1461,7 @@
     "rank": "V-055",
     "category": "Verb",
     "word": "handeln",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1039,7 +1472,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>sich handeln + um + Akk.</b>: to be a matter of / to concern (essential nature)<br>• <b>handeln + mit + Dat.</b>: to trade in / to deal with (goods, commodities)",
     "grammar_notes": "Active verb: 'Das Buch handelt von...'. Do not confuse with 'es handelt sich um'!",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Lied handelt von einer bittersüßen Liebe im Sommer.",
     "group": "handeln",
     "freq_rank": 28
@@ -1048,6 +1488,7 @@
     "rank": "V-056",
     "category": "Verb",
     "word": "handeln",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1058,7 +1499,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "• <b>handeln + von + Dat.</b>: to be about (plot, theme of a story/book/movie)<br>• <b>sich handeln + um + Akk.</b>: to be a matter of / to concern (essential nature)",
     "grammar_notes": "Commerce and business transactions.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Händler handelt mit edlen Weinen und Antiquitäten.",
     "group": "handeln",
     "freq_rank": 28
@@ -1067,6 +1515,7 @@
     "rank": "V-057",
     "category": "Verb",
     "word": "gehören",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1077,7 +1526,14 @@
     "question_structure": "Wozu? • Dazu / Zu wem?",
     "other_prepositions": "",
     "grammar_notes": "Membership or integral part. Note: simple ownership is 'etwas gehört jemandem (Dat)' without prep.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Kaffee gehört für viele zu einem perfekten Morgen.",
     "group": "gehören",
     "freq_rank": 29
@@ -1086,6 +1542,7 @@
     "rank": "V-058",
     "category": "Verb",
     "word": "bitten",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1096,7 +1553,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) um etwas (Akk) bitten. Crucial polite request phrasing.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Darf ich Sie um einen kurzen Augenblick Geduld bitten?",
     "group": "bitten",
     "freq_rank": 30
@@ -1105,6 +1569,7 @@
     "rank": "V-059",
     "category": "Verb",
     "word": "warten",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1115,7 +1580,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "• <b>warten + auf + Akk.</b>: to wait for",
     "grammar_notes": "Indicates postponing an action: 'mit der Entscheidung warten'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wir sollten mit dem Kauf noch warten, bis die Preise sinken.",
     "group": "warten",
     "freq_rank": 31
@@ -1124,6 +1596,7 @@
     "rank": "V-060",
     "category": "Verb",
     "word": "warten",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1134,7 +1607,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "• <b>warten + mit + Dat.</b>: to hold off on / to delay doing something",
     "grammar_notes": "Preposition 'auf' always takes Akkusativ here. Never use 'für'!",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir warten schon seit einer halben Stunde auf den verspäteten Zug.",
     "group": "warten",
     "freq_rank": 31
@@ -1143,6 +1623,7 @@
     "rank": "V-061",
     "category": "Verb",
     "word": "bestehen",
+    "synonym": "",
     "prep": "in",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1153,7 +1634,14 @@
     "question_structure": "Worin? • Darin",
     "other_prepositions": "• <b>bestehen + aus + Dat.</b>: to consist of / to be made of<br>• <b>bestehen + auf + Dat.</b>: to insist on",
     "grammar_notes": "Defines the core essence or nature of an abstract issue.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::in",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Schwierigkeit besteht in der genauen Umsetzung des Plans.",
     "group": "bestehen",
     "freq_rank": 32
@@ -1162,6 +1650,7 @@
     "rank": "V-062",
     "category": "Verb",
     "word": "bestehen",
+    "synonym": "",
     "prep": "aus",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1172,7 +1661,14 @@
     "question_structure": "Woraus? • Daraus",
     "other_prepositions": "• <b>bestehen + auf + Dat.</b>: to insist on<br>• <b>bestehen + in + Dat.</b>: to consist in / to lie in (the essence of)",
     "grammar_notes": "Physical components or group members.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::aus",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Team besteht aus fünf erfahrenen Entwicklern.",
     "group": "bestehen",
     "freq_rank": 32
@@ -1181,6 +1677,7 @@
     "rank": "V-063",
     "category": "Verb",
     "word": "bestehen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1191,7 +1688,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "• <b>bestehen + aus + Dat.</b>: to consist of / to be made of<br>• <b>bestehen + in + Dat.</b>: to consist in / to lie in (the essence of)",
     "grammar_notes": "In modern German, 'bestehen auf' predominantly takes Dativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Gast bestand unnachgiebig auf seinem Recht auf Rückerstattung.",
     "group": "bestehen",
     "freq_rank": 32
@@ -1200,6 +1704,7 @@
     "rank": "V-064",
     "category": "Verb",
     "word": "suchen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1210,7 +1715,14 @@
     "question_structure": "Wonach? • Danach / Nach wem?",
     "other_prepositions": "",
     "grammar_notes": "Note: 'etwas suchen' (direct object Akk) is common for objects; 'suchen nach + Dat' emphasizes ongoing quest/effort.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Forscher suchen intensiv nach einer Heilung für die Krankheit.",
     "group": "suchen",
     "freq_rank": 33
@@ -1219,6 +1731,7 @@
     "rank": "V-065",
     "category": "Verb",
     "word": "hoffen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1229,7 +1742,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'auf + Akkusativ'. Never 'für'!",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Landwirte hoffen dringend auf ergiebigen Regen.",
     "group": "hoffen",
     "freq_rank": 34
@@ -1238,6 +1758,7 @@
     "rank": "V-066",
     "category": "Verb",
     "word": "achten",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1248,7 +1769,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Active attentiveness or care (e.g. auf die Ernährung achten).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Beim Überqueren der Straße musst du auf den Verkehr achten.",
     "group": "achten",
     "freq_rank": 35
@@ -1257,6 +1785,7 @@
     "rank": "V-067",
     "category": "Verb",
     "word": "antworten",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1267,7 +1796,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "jemandem (Dat) auf etwas (Akk) antworten. Contrast: 'etwas beantworten' takes direct Akk object.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er hat noch immer nicht auf meine dringende Frage geantwortet.",
     "group": "antworten",
     "freq_rank": 36
@@ -1276,6 +1812,7 @@
     "rank": "V-068",
     "category": "Verb",
     "word": "danken",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1286,7 +1823,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemandem (Dat) für etwas (Akk) danken.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich danke dir von ganzem Herzen für deine großzügige Unterstützung.",
     "group": "danken",
     "freq_rank": 37
@@ -1295,6 +1839,7 @@
     "rank": "V-069",
     "category": "Verb",
     "word": "rechnen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1305,7 +1850,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Anticipating a condition, event, or problem.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Im Winter muss man jederzeit mit glatten Straßen rechnen.",
     "group": "rechnen",
     "freq_rank": 38
@@ -1314,6 +1866,7 @@
     "rank": "V-070",
     "category": "Verb",
     "word": "fehlen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1324,7 +1877,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Often used impersonally: 'Es fehlt an + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "In dem Projekt fehlt es vor allem an qualifizierten Mitarbeitern.",
     "group": "fehlen",
     "freq_rank": 39
@@ -1333,6 +1893,7 @@
     "rank": "V-071",
     "category": "Verb",
     "word": "passen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1343,7 +1904,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "• <b>passen + zu + Dat.</b>: to match / to suit / to go well with",
     "grammar_notes": "Physical fit or attachment onto a surface/opening.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der Deckel passt genau auf diese kleine Dose.",
     "group": "passen",
     "freq_rank": 40
@@ -1352,6 +1920,7 @@
     "rank": "V-072",
     "category": "Verb",
     "word": "passen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1362,7 +1931,14 @@
     "question_structure": "Wozu? • Dazu / Zu wem?",
     "other_prepositions": "• <b>passen + auf + Akk.</b>: to fit onto / to fit (physically)",
     "grammar_notes": "Compatibility in style, character, or harmony.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Dieser dunkle Gürtel passt perfekt zu deinen neuen Schuhen.",
     "group": "passen",
     "freq_rank": 40
@@ -1371,6 +1947,7 @@
     "rank": "V-073",
     "category": "Verb",
     "word": "vertrauen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1381,7 +1958,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Can take simple Dativ (jemandem vertrauen) or 'auf + Akk' for strong reliance/faith.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie vertraut voll und ganz auf ihre eigene Intuition.",
     "group": "vertrauen",
     "freq_rank": 41
@@ -1390,6 +1974,7 @@
     "rank": "V-074",
     "category": "Verb",
     "word": "leiden",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1400,7 +1985,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "• <b>leiden + unter + Dat.</b>: to suffer under (difficult circumstances, stress, noise, loneliness)",
     "grammar_notes": "CRUCIAL CONTRAST: 'leiden an + Dat' is reserved for diagnostic illnesses/diseases.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Patient leidet seit seiner Kindheit an schwerem Asthma.",
     "group": "leiden",
     "freq_rank": 42
@@ -1409,6 +2001,7 @@
     "rank": "V-075",
     "category": "Verb",
     "word": "leiden",
+    "synonym": "",
     "prep": "unter",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1419,7 +2012,14 @@
     "question_structure": "Worunter? • Darunter",
     "other_prepositions": "• <b>leiden + an + Dat.</b>: to suffer from (a specific medical illness or disease)",
     "grammar_notes": "CRUCIAL CONTRAST: 'leiden unter + Dat' is used for environmental or situational conditions.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::unter",
+      "case::dat"
+    ],
     "raw_sentence_de": "Viele Großstädter leiden unter dem ständigen Lärm und der Hektik.",
     "group": "leiden",
     "freq_rank": 42
@@ -1428,6 +2028,7 @@
     "rank": "V-076",
     "category": "Verb",
     "word": "zweifeln",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1438,7 +2039,14 @@
     "question_structure": "Woran? • Daran / An wem?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'an + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Niemand im Kollegium zweifelt an seiner außergewöhnlichen Kompetenz.",
     "group": "zweifeln",
     "freq_rank": 43
@@ -1447,6 +2055,7 @@
     "rank": "V-077",
     "category": "Verb",
     "word": "sich freuen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1457,7 +2066,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "• <b>sich freuen + auf + Akk.</b>: to look forward to (a FUTURE event)",
     "grammar_notes": "PRESENT/PAST ONLY: reaction to something that has occurred or already arrived.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich habe mich sehr über deinen liebevollen Brief gefreut.",
     "group": "sich freuen",
     "freq_rank": 44
@@ -1466,6 +2082,7 @@
     "rank": "V-078",
     "category": "Verb",
     "word": "sich freuen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1476,7 +2093,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "• <b>sich freuen + über + Akk.</b>: to be pleased / happy about (a PRESENT or PAST event/gift)",
     "grammar_notes": "FUTURE TIME ONLY: anticipation of something yet to happen. Always Akkusativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir freuen uns schon riesig auf den bevorstehenden Urlaub.",
     "group": "sich freuen",
     "freq_rank": 44
@@ -1485,6 +2109,7 @@
     "rank": "V-079",
     "category": "Verb",
     "word": "sich interessieren",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1495,7 +2120,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "",
     "grammar_notes": "Reflexive verb with Akk. object (sich) and 'für + Akk'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Interessierst du dich eigentlich für klassische Architektur?",
     "group": "sich interessieren",
     "freq_rank": 45
@@ -1504,6 +2136,7 @@
     "rank": "V-080",
     "category": "Verb",
     "word": "sich erinnern",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1514,7 +2147,14 @@
     "question_structure": "Woran? • Daran / An wen?",
     "other_prepositions": "",
     "grammar_notes": "Reflexive: 'sich erinnern an + Akk'. Active form 'jemanden an etwas erinnern' = to remind someone of something.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Erinnert ihr euch noch an unseren ersten gemeinsamen Schultag?",
     "group": "sich erinnern",
     "freq_rank": 46
@@ -1523,6 +2163,7 @@
     "rank": "V-081",
     "category": "Verb",
     "word": "sich kümmern",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1533,7 +2174,14 @@
     "question_structure": "Worum? • Darum / Um wen?",
     "other_prepositions": "",
     "grammar_notes": "Taking responsibility for someone or dealing with a task.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wer kümmert sich während deiner Abwesenheit um die Haustiere?",
     "group": "sich kümmern",
     "freq_rank": 47
@@ -1542,6 +2190,7 @@
     "rank": "V-082",
     "category": "Verb",
     "word": "sich ärgern",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1552,7 +2201,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "",
     "grammar_notes": "Reflexive emotional state. Always 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie ärgert sich maßlos über den unzuverlässigen Handwerker.",
     "group": "sich ärgern",
     "freq_rank": 48
@@ -1561,6 +2217,7 @@
     "rank": "V-083",
     "category": "Verb",
     "word": "sich beschäftigen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1571,7 +2228,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Dedicated activity or hobby. Always takes 'mit + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "In ihrer Freizeit beschäftigt sie sich gern mit Malerei.",
     "group": "sich beschäftigen",
     "freq_rank": 49
@@ -1580,6 +2244,7 @@
     "rank": "V-084",
     "category": "Verb",
     "word": "sich bewerben",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1590,7 +2255,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>sich bewerben + bei + Dat.</b>: to apply to / at (a company, institution)",
     "grammar_notes": "The target role or prize takes 'um + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er bewirbt sich um ein Stipendium an einer angesehenen Universität.",
     "group": "sich bewerben",
     "freq_rank": 50
@@ -1599,6 +2271,7 @@
     "rank": "V-085",
     "category": "Verb",
     "word": "sich bewerben",
+    "synonym": "",
     "prep": "bei",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1609,7 +2282,14 @@
     "question_structure": "Bei wem?",
     "other_prepositions": "• <b>sich bewerben + um + Akk.</b>: to apply for (a job, position, scholarship)",
     "grammar_notes": "The target organization/company takes 'bei + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::bei",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie hat sich bei einer internationalen Bank beworben.",
     "group": "sich bewerben",
     "freq_rank": 50
@@ -1618,6 +2298,7 @@
     "rank": "V-086",
     "category": "Verb",
     "word": "sich gewöhnen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1628,7 +2309,14 @@
     "question_structure": "Woran? • Daran / An wen?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'an + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich kann mich einfach nicht an den frühen Wecker gewöhnen.",
     "group": "sich gewöhnen",
     "freq_rank": 51
@@ -1637,6 +2325,7 @@
     "rank": "V-087",
     "category": "Verb",
     "word": "sich konzentrieren",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1647,7 +2336,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Direction of mental focus: takes Akkusativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Bitte konzentrieren Sie sich voll auf die bevorstehende Prüfung!",
     "group": "sich konzentrieren",
     "freq_rank": 52
@@ -1656,6 +2352,7 @@
     "rank": "V-088",
     "category": "Verb",
     "word": "sich verlassen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1666,7 +2363,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Reflexive verb (sich verlassen auf). Trusting someone's dependability.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Auf meine engsten Freunde kann ich mich immer auf blind verlassen.",
     "group": "sich verlassen",
     "freq_rank": 53
@@ -1675,6 +2379,7 @@
     "rank": "V-089",
     "category": "Verb",
     "word": "sich beziehen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1685,7 +2390,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Essential in formal correspondence ('Bezug nehmend auf...').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Mein Schreiben bezieht sich auf Ihr Inserat vom 15. Mai.",
     "group": "sich beziehen",
     "freq_rank": 54
@@ -1694,6 +2406,7 @@
     "rank": "V-090",
     "category": "Verb",
     "word": "sich vorbereiten",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1704,7 +2417,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Separable reflexive verb (sich vor|bereiten).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Sportler bereiten sich monatelang auf den Marathon vor.",
     "group": "sich vorbereiten",
     "freq_rank": 55
@@ -1713,6 +2433,7 @@
     "rank": "V-091",
     "category": "Verb",
     "word": "sich verlieben",
+    "synonym": "",
     "prep": "in",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1723,7 +2444,14 @@
     "question_structure": "In wen? / Worin?",
     "other_prepositions": "",
     "grammar_notes": "Note: takes 'in + Akkusativ' (never 'mit'!).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::in",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er hat sich unsterblich in seine Arbeitskollegin verliebt.",
     "group": "sich verlieben",
     "freq_rank": 56
@@ -1732,6 +2460,7 @@
     "rank": "V-092",
     "category": "Verb",
     "word": "sich verabreden",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1742,7 +2471,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Social meeting appointment.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich habe mich für heute Abend mit Markus verabredet.",
     "group": "sich verabreden",
     "freq_rank": 57
@@ -1751,6 +2487,7 @@
     "rank": "V-093",
     "category": "Verb",
     "word": "abhängen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1761,7 +2498,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: 'ab|hängen von + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Erfolg eines Unternehmens hängt stark von seinen Mitarbeitern ab.",
     "group": "abhängen",
     "freq_rank": 58
@@ -1770,6 +2514,7 @@
     "rank": "V-094",
     "category": "Verb",
     "word": "aufhören",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1780,7 +2525,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: 'auf|hören mit + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wann hörst du endlich mit dem ständigen Jammern auf?",
     "group": "aufhören",
     "freq_rank": 59
@@ -1789,6 +2541,7 @@
     "rank": "V-095",
     "category": "Verb",
     "word": "aufpassen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1799,7 +2552,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: 'auf|passen auf + Akk'. Guarding or minding someone/something.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Könntest du kurz auf mein Gepäck aufpassen?",
     "group": "aufpassen",
     "freq_rank": 60
@@ -1808,6 +2568,7 @@
     "rank": "V-096",
     "category": "Verb",
     "word": "ausgeben",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1818,7 +2579,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: Geld ausgeben für + Akk.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er gibt viel zu viel Geld für teure Kleidung aus.",
     "group": "ausgeben",
     "freq_rank": 61
@@ -1827,6 +2595,7 @@
     "rank": "V-097",
     "category": "Verb",
     "word": "beitragen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1837,7 +2606,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Irregular separable verb (trägt bei; trug bei; beigetragen).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Jeder einzelne Bürger kann zu einer sauberen Umwelt beitragen.",
     "group": "beitragen",
     "freq_rank": 62
@@ -1846,6 +2622,7 @@
     "rank": "V-098",
     "category": "Verb",
     "word": "berichten",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1856,7 +2633,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>berichten + über + Akk.</b>: to report on (a comprehensive subject or event)",
     "grammar_notes": "Focuses on personal observation or occurrence.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Augenzeuge berichtete von einem lauten Knall.",
     "group": "berichten",
     "freq_rank": 63
@@ -1865,6 +2649,7 @@
     "rank": "V-099",
     "category": "Verb",
     "word": "berichten",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1875,7 +2660,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "• <b>berichten + von + Dat.</b>: to report / tell of (an incident or experience)",
     "grammar_notes": "Journalistic or detailed factual reporting.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Zeitungen berichten ausführlich über die neue Gesetzesreform.",
     "group": "berichten",
     "freq_rank": 63
@@ -1884,6 +2676,7 @@
     "rank": "V-100",
     "category": "Verb",
     "word": "einladen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1894,7 +2687,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) zu etwas (Dat) einladen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wir möchten dich herzlich zu unserer Geburtstagsfeier einladen.",
     "group": "einladen",
     "freq_rank": 64
@@ -1903,6 +2703,7 @@
     "rank": "V-101",
     "category": "Verb",
     "word": "sich entscheiden",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1913,7 +2714,14 @@
     "question_structure": "Wogegen? • Dagegen",
     "other_prepositions": "• <b>sich entscheiden + für + Akk.</b>: to decide in favor of / to choose",
     "grammar_notes": "Rejecting an option.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er hat sich bewusst gegen den teuren Umzug entschieden.",
     "group": "sich entscheiden",
     "freq_rank": 65
@@ -1922,6 +2730,7 @@
     "rank": "V-102",
     "category": "Verb",
     "word": "sich entscheiden",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1932,7 +2741,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>sich entscheiden + gegen + Akk.</b>: to decide against",
     "grammar_notes": "Selecting an option among alternatives.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Nach langer Überlegung entschied sie sich für das Medizinstudium.",
     "group": "sich entscheiden",
     "freq_rank": 65
@@ -1941,6 +2757,7 @@
     "rank": "V-103",
     "category": "Verb",
     "word": "sich entschuldigen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -1951,7 +2768,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>sich entschuldigen + bei + Dat.</b>: to apologize to (a person)",
     "grammar_notes": "The reason for the apology takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich entschuldige mich vielmals für das Missgeschick.",
     "group": "sich entschuldigen",
     "freq_rank": 66
@@ -1960,6 +2784,7 @@
     "rank": "V-104",
     "category": "Verb",
     "word": "sich entschuldigen",
+    "synonym": "",
     "prep": "bei",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1970,7 +2795,14 @@
     "question_structure": "Bei wem?",
     "other_prepositions": "• <b>sich entschuldigen + für + Akk.</b>: to apologize for (a mistake or action)",
     "grammar_notes": "The recipient of the apology takes 'bei + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::bei",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er sollte sich aufrichtig bei seiner Nachbarin entschuldigen.",
     "group": "sich entschuldigen",
     "freq_rank": 66
@@ -1979,6 +2811,7 @@
     "rank": "V-105",
     "category": "Verb",
     "word": "sich erholen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -1989,7 +2822,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "",
     "grammar_notes": "Restoration of health or energy.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie muss sich erst von den Strapazen der langen Reise erholen.",
     "group": "sich erholen",
     "freq_rank": 67
@@ -1998,6 +2838,7 @@
     "rank": "V-106",
     "category": "Verb",
     "word": "erkennen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2008,7 +2849,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden an etwas (Dat) erkennen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich habe sie sofort an ihrem herzlichen Lachen erkannt.",
     "group": "erkennen",
     "freq_rank": 68
@@ -2017,6 +2865,7 @@
     "rank": "V-107",
     "category": "Verb",
     "word": "sich erkundigen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2027,7 +2876,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "• <b>sich erkundigen + bei + Dat.</b>: to inquire with / at (a person or institution)",
     "grammar_notes": "More formal synonym for 'fragen nach + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er erkundigte sich am Schalter nach den Abfahrtszeiten.",
     "group": "sich erkundigen",
     "freq_rank": 69
@@ -2036,6 +2892,7 @@
     "rank": "V-108",
     "category": "Verb",
     "word": "sich erkundigen",
+    "synonym": "",
     "prep": "bei",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2046,7 +2903,14 @@
     "question_structure": "Bei wem?",
     "other_prepositions": "• <b>sich erkundigen + nach + Dat.</b>: to inquire about (information, conditions)",
     "grammar_notes": "The source/authority being asked takes 'bei + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::bei",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie erkundigte sich bei der Behörde nach den notwendigen Unterlagen.",
     "group": "sich erkundigen",
     "freq_rank": 69
@@ -2055,6 +2919,7 @@
     "rank": "V-109",
     "category": "Verb",
     "word": "erschrecken",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2065,7 +2930,14 @@
     "question_structure": "Wovor? • Davor / Vor wem?",
     "other_prepositions": "• <b>erschrecken + über + Akk.</b>: to be shocked / startled by (news, realization)",
     "grammar_notes": "Direct sensory startle response to a danger or sudden noise.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Baby erschrak furchtbar vor dem lauten Donner.",
     "group": "erschrecken",
     "freq_rank": 70
@@ -2074,6 +2946,7 @@
     "rank": "V-110",
     "category": "Verb",
     "word": "erschrecken",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2084,7 +2957,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>erschrecken + vor + Dat.</b>: to be frightened of (a sudden noise, animal, entity)",
     "grammar_notes": "Emotional shock upon discovering a fact or news item.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Bürger erschraken über den drastischen Preisanstieg.",
     "group": "erschrecken",
     "freq_rank": 70
@@ -2093,6 +2973,7 @@
     "rank": "V-111",
     "category": "Verb",
     "word": "sich fürchten",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2103,7 +2984,14 @@
     "question_structure": "Wovor? • Davor / Vor wem?",
     "other_prepositions": "",
     "grammar_notes": "Always 'vor + Dativ'. Synonymous with 'Angst haben vor + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Manche Menschen fürchten sich vor engen Räumen.",
     "group": "sich fürchten",
     "freq_rank": 71
@@ -2112,6 +3000,7 @@
     "rank": "V-112",
     "category": "Verb",
     "word": "gratulieren",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2122,7 +3011,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemandem (Dat) zu etwas (Dat) gratulieren.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wir gratulieren dir ganz herzlich zu deiner bestandenen Prüfung!",
     "group": "gratulieren",
     "freq_rank": 72
@@ -2131,6 +3027,7 @@
     "rank": "V-113",
     "category": "Verb",
     "word": "klagen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2141,7 +3038,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>klagen + gegen + Akk.</b>: to file a lawsuit against / to sue",
     "grammar_notes": "Medical complaints or general grievances.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Patienten klagen über anhaltende Übelkeit.",
     "group": "klagen",
     "freq_rank": 73
@@ -2150,6 +3054,7 @@
     "rank": "V-114",
     "category": "Verb",
     "word": "klagen",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2160,7 +3065,14 @@
     "question_structure": "Wogegen? • Dagegen / Gegen wen?",
     "other_prepositions": "• <b>klagen + über + Akk.</b>: to complain about / to lament",
     "grammar_notes": "Legal context: bringing action before a court.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der Anwohner klagt gegen den Bau der neuen Autobahn.",
     "group": "klagen",
     "freq_rank": 73
@@ -2169,6 +3081,7 @@
     "rank": "V-115",
     "category": "Verb",
     "word": "protestieren",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2179,7 +3092,14 @@
     "question_structure": "Wogegen? • Dagegen",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'gegen + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Tausende Bürger protestieren friedlich gegen die Steuererhöhung.",
     "group": "protestieren",
     "freq_rank": 74
@@ -2188,6 +3108,7 @@
     "rank": "V-116",
     "category": "Verb",
     "word": "reagieren",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2198,7 +3119,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Always takes 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wie hat die Schulleitung auf die Beschwerde reagiert?",
     "group": "reagieren",
     "freq_rank": 75
@@ -2207,6 +3135,7 @@
     "rank": "V-117",
     "category": "Verb",
     "word": "riechen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2217,7 +3146,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "",
     "grammar_notes": "Sensory impression of aroma.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Im ganzen Haus riecht es köstlich nach frisch gebackenem Brot.",
     "group": "riechen",
     "freq_rank": 76
@@ -2226,6 +3162,7 @@
     "rank": "V-118",
     "category": "Verb",
     "word": "schmecken",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2236,7 +3173,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "",
     "grammar_notes": "Sensory impression of taste.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Dessert schmeckt wunderbar nach frischer Vanille.",
     "group": "schmecken",
     "freq_rank": 77
@@ -2245,6 +3189,7 @@
     "rank": "V-119",
     "category": "Verb",
     "word": "schützen",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2255,7 +3200,14 @@
     "question_structure": "Wogegen? • Dagegen",
     "other_prepositions": "• <b>schützen + vor + Dat.</b>: to protect from / to shield against",
     "grammar_notes": "Often used interchangeably with 'vor + Dat', especially in medical contexts.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Impfung schützt zuverlässig gegen eine schwere Infektion.",
     "group": "schützen",
     "freq_rank": 78
@@ -2264,6 +3216,7 @@
     "rank": "V-120",
     "category": "Verb",
     "word": "schützen",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2274,7 +3227,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "• <b>schützen + gegen + Akk.</b>: to protect against (disease, attack)",
     "grammar_notes": "Defense against an environmental threat or hazard.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sonnencreme schützt die empfindliche Haut vor gefährlichen Sonnenbränden.",
     "group": "schützen",
     "freq_rank": 78
@@ -2283,6 +3243,7 @@
     "rank": "V-121",
     "category": "Verb",
     "word": "sorgen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2293,7 +3254,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>sich sorgen + um + Akk.</b>: to worry about",
     "grammar_notes": "Creating a condition or caring for dependents ('für die Kinder sorgen').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Gute Musik sorgt für eine ausgelassene Stimmung.",
     "group": "sorgen",
     "freq_rank": 79
@@ -2302,6 +3270,7 @@
     "rank": "V-122",
     "category": "Verb",
     "word": "sich sorgen",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2312,7 +3281,14 @@
     "question_structure": "Worum? • Darum / Um wen?",
     "other_prepositions": "• <b>sorgen + für + Akk.</b>: to provide for / to ensure / to take care of",
     "grammar_notes": "Reflexive: 'sich sorgen um + Akk'. Synonymous with 'sich Sorgen machen um'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Großmutter sorgt sich sehr um das Wohl ihrer Enkel.",
     "group": "sorgen",
     "freq_rank": 79
@@ -2321,6 +3297,7 @@
     "rank": "V-123",
     "category": "Verb",
     "word": "sterben",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2331,7 +3308,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Cause of death takes 'an + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Viele Patienten starben früher an einer einfachen Wundinfektion.",
     "group": "sterben",
     "freq_rank": 80
@@ -2340,6 +3324,7 @@
     "rank": "V-124",
     "category": "Verb",
     "word": "träumen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2350,7 +3335,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Both nocturnal dreams and long-term aspirational wishes.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Seit ihrer Kindheit träumt sie von einem eigenen Haus am Meer.",
     "group": "träumen",
     "freq_rank": 81
@@ -2359,6 +3351,7 @@
     "rank": "V-125",
     "category": "Verb",
     "word": "überzeugen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2369,7 +3362,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) von etwas (Dat) überzeugen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Seine schlüssigen Argumente überzeugten uns von der Richtigkeit des Plans.",
     "group": "überzeugen",
     "freq_rank": 82
@@ -2378,6 +3378,7 @@
     "rank": "V-126",
     "category": "Verb",
     "word": "sich unterhalten",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2388,7 +3389,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "• <b>sich unterhalten + mit + Dat.</b>: to converse with / to chat with (someone)",
     "grammar_notes": "Topic of conversation: 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir haben uns stundenlang über alte Erinnerungen unterhalten.",
     "group": "sich unterhalten",
     "freq_rank": 83
@@ -2397,6 +3405,7 @@
     "rank": "V-127",
     "category": "Verb",
     "word": "sich unterhalten",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2407,7 +3416,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "• <b>sich unterhalten + über + Akk.</b>: to converse about / to discuss (a topic)",
     "grammar_notes": "Partner in conversation: 'mit + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich habe mich auf dem Empfang lange mit dem Botschafter unterhalten.",
     "group": "sich unterhalten",
     "freq_rank": 83
@@ -2416,6 +3432,7 @@
     "rank": "V-128",
     "category": "Verb",
     "word": "verbinden",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2426,7 +3443,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Mental association or physical connection.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Mit diesem melancholischen Lied verbinde ich mit meinen schönsten Sommer.",
     "group": "verbinden",
     "freq_rank": 84
@@ -2435,6 +3459,7 @@
     "rank": "V-129",
     "category": "Verb",
     "word": "vergleichen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2445,7 +3470,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Drawing comparisons.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Man kann die Situation heute kaum mit den Zuständen vor fünfzig Jahren vergleichen.",
     "group": "vergleichen",
     "freq_rank": 85
@@ -2454,6 +3486,7 @@
     "rank": "V-130",
     "category": "Verb",
     "word": "verzichten",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2464,7 +3497,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Voluntarily giving up a privilege, habit, or item. Always 'auf + Akk'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er verzichtet während der Fastenzeit komplett auf raffinierten Zucker.",
     "group": "verzichten",
     "freq_rank": 86
@@ -2473,6 +3513,7 @@
     "rank": "V-131",
     "category": "Verb",
     "word": "warnen",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2483,7 +3524,14 @@
     "question_structure": "Wovor? • Davor / Vor wem?",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden vor etwas (Dat) warnen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Experten warnen eindringlich vor den Folgen des Klimawandels.",
     "group": "warnen",
     "freq_rank": 87
@@ -2492,6 +3540,7 @@
     "rank": "V-132",
     "category": "Verb",
     "word": "sich wundern",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2502,7 +3551,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "",
     "grammar_notes": "Surprise or bewilderment. Always 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Ich wundere mich immer wieder über seine unglaubliche Energie.",
     "group": "sich wundern",
     "freq_rank": 88
@@ -2511,6 +3567,7 @@
     "rank": "V-133",
     "category": "Verb",
     "word": "zusammenhängen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2521,7 +3578,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: 'zusammen|hängen mit + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Häufige Kopfschmerzen hängen oft eng mit zu wenig Schlaf zusammen.",
     "group": "zusammenhängen",
     "freq_rank": 89
@@ -2530,6 +3594,7 @@
     "rank": "V-134",
     "category": "Verb",
     "word": "zwingen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2540,7 +3605,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden zu etwas (Dat) zwingen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die schwere Verletzung zwang den Athleten zu einem vorzeitigen Karriereende.",
     "group": "zwingen",
     "freq_rank": 90
@@ -2549,6 +3621,7 @@
     "rank": "V-135",
     "category": "Verb",
     "word": "anfangen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2559,7 +3632,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "",
     "grammar_notes": "Separable verb (fängt an; fing an; angefangen). Takes Dativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Wann fängst du endlich mit der Vorbereitung auf das Examen an?",
     "group": "anfangen",
     "freq_rank": 91
@@ -2568,6 +3648,7 @@
     "rank": "V-136",
     "category": "Verb",
     "word": "eingehen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2578,7 +3659,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Separable verb (auf etwas eingehen). Thorough response or consideration.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der Referent ging freundlich auf alle Fragen des Publikums ein.",
     "group": "eingehen",
     "freq_rank": 92
@@ -2587,6 +3675,7 @@
     "rank": "V-137",
     "category": "Verb",
     "word": "hinweisen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2597,7 +3686,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Separable verb (hin|weisen). Takes 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Das Schild weist die Autofahrer auf die akute Rutschgefahr hin.",
     "group": "hinweisen",
     "freq_rank": 93
@@ -2606,6 +3702,7 @@
     "rank": "V-138",
     "category": "Verb",
     "word": "hören",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2616,7 +3713,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "• <b>hören + auf + Akk.</b>: to listen to / to obey (advice, a person)",
     "grammar_notes": "Receiving news or updates.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A1",
+    "tags": [
+      "level::A1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Hast du in letzter Zeit etwas Neues von deinem Schulfreund gehört?",
     "group": "hören",
     "freq_rank": 94
@@ -2625,6 +3729,7 @@
     "rank": "V-139",
     "category": "Verb",
     "word": "hören",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2635,7 +3740,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "• <b>hören + von + Dat.</b>: to hear from / about (someone/something)",
     "grammar_notes": "Heeding instructions or following advice.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der sture Junge will einfach nicht auf den Rat seiner Eltern hören.",
     "group": "hören",
     "freq_rank": 94
@@ -2644,6 +3756,7 @@
     "rank": "V-140",
     "category": "Verb",
     "word": "kämpfen",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2654,7 +3767,14 @@
     "question_structure": "Wogegen? • Dagegen / Gegen wen?",
     "other_prepositions": "• <b>kämpfen + für + Akk.</b>: to fight for (a cause, justice, freedom)<br>• <b>kämpfen + um + Akk.</b>: to fight over / for (survival, a trophy, custody)",
     "grammar_notes": "Opposing or battling a threat.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Ärzte kämpfen mit allen Mitteln gegen die heimtückische Krankheit.",
     "group": "kämpfen",
     "freq_rank": 95
@@ -2663,6 +3783,7 @@
     "rank": "V-141",
     "category": "Verb",
     "word": "kämpfen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2673,7 +3794,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>kämpfen + gegen + Akk.</b>: to fight against (an enemy, injustice, disease)<br>• <b>kämpfen + um + Akk.</b>: to fight over / for (survival, a trophy, custody)",
     "grammar_notes": "Fighting in support of a goal.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Aktivisten kämpfen unermüdlich für eine gerechtere Welt.",
     "group": "kämpfen",
     "freq_rank": 95
@@ -2682,6 +3810,7 @@
     "rank": "V-142",
     "category": "Verb",
     "word": "kämpfen",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2692,7 +3821,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>kämpfen + für + Akk.</b>: to fight for (a cause, justice, freedom)<br>• <b>kämpfen + gegen + Akk.</b>: to fight against (an enemy, injustice, disease)",
     "grammar_notes": "Contesting or struggling to obtain/retain an object or state.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die beiden Finalisten kämpfen verbissen um den begehrten Pokal.",
     "group": "kämpfen",
     "freq_rank": 95
@@ -2701,6 +3837,7 @@
     "rank": "V-143",
     "category": "Verb",
     "word": "klarkommen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2711,7 +3848,14 @@
     "question_structure": "Womit? • Damit / Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Separable colloquial idiom: 'klar|kommen mit + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Kommst du im Alltag gut mit deinem neuen Vorgesetzten klar?",
     "group": "klarkommen",
     "freq_rank": 96
@@ -2720,6 +3864,7 @@
     "rank": "V-144",
     "category": "Verb",
     "word": "mangeln",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2730,7 +3875,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Impersonal: 'Es mangelt an + Dat'. Similar to 'fehlen an'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Dem jungen Start-up mangelt es vor allem an ausreichendem Kapital.",
     "group": "mangeln",
     "freq_rank": 97
@@ -2739,6 +3891,7 @@
     "rank": "V-145",
     "category": "Verb",
     "word": "profitieren",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2749,7 +3902,14 @@
     "question_structure": "Wovon? • Davon / Von wem?",
     "other_prepositions": "",
     "grammar_notes": "Gaining an advantage from a situation.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Beide Unternehmen profitieren enorm von der neuen Partnerschaft.",
     "group": "profitieren",
     "freq_rank": 98
@@ -2758,6 +3918,7 @@
     "rank": "V-146",
     "category": "Verb",
     "word": "sich rächen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2768,7 +3929,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>sich rächen + an + Dat.</b>: to take revenge on (a person)",
     "grammar_notes": "The reason or grievance takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie wollte sich für die schwere Demütigung rächen.",
     "group": "sich rächen",
     "freq_rank": 99
@@ -2777,6 +3945,7 @@
     "rank": "V-147",
     "category": "Verb",
     "word": "sich rächen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2787,7 +3956,14 @@
     "question_structure": "An wem?",
     "other_prepositions": "• <b>sich rächen + für + Akk.</b>: to take revenge for (an offense or wrong)",
     "grammar_notes": "The target of revenge takes 'an + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er schwor, sich eines Tages an seinem Verräter zu rächen.",
     "group": "sich rächen",
     "freq_rank": 99
@@ -2796,6 +3972,7 @@
     "rank": "V-148",
     "category": "Verb",
     "word": "raten",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2806,7 +3983,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemandem (Dat) zu etwas (Dat) raten.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Arzt riet ihm dringend zu einer sofortigen Kur.",
     "group": "raten",
     "freq_rank": 100
@@ -2815,6 +3999,7 @@
     "rank": "V-149",
     "category": "Verb",
     "word": "richten",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2825,7 +4010,14 @@
     "question_structure": "An wen?",
     "other_prepositions": "• <b>sich richten + nach + Dat.</b>: to conform to / to be guided by / to depend on",
     "grammar_notes": "The target audience takes 'an + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Worte der Kanzlerin richteten sich an das gesamte Volk.",
     "group": "richten",
     "freq_rank": 101
@@ -2834,6 +4026,7 @@
     "rank": "V-150",
     "category": "Verb",
     "word": "sich richten",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2844,7 +4037,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "• <b>richten + an + Akk.</b>: to address to / to direct toward (an audience)",
     "grammar_notes": "Conforming or tailoring to criteria.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der genaue Preis richtet sich nach der gewünschten Ausstattung.",
     "group": "richten",
     "freq_rank": 101
@@ -2853,6 +4053,7 @@
     "rank": "V-151",
     "category": "Verb",
     "word": "schimpfen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2863,7 +4064,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "• <b>schimpfen + mit + Dat.</b>: to scold / to tell off (a person)",
     "grammar_notes": "Venting frustration about a situation.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Pendler schimpfen täglich über die unpünktlichen Züge.",
     "group": "schimpfen",
     "freq_rank": 102
@@ -2872,6 +4080,7 @@
     "rank": "V-152",
     "category": "Verb",
     "word": "schimpfen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2882,7 +4091,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "• <b>schimpfen + über + Akk.</b>: to rant about / to grumble about",
     "grammar_notes": "Direct reprimand to a person.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Mutter schimpfte mit ihrem unartigen Sohn.",
     "group": "schimpfen",
     "freq_rank": 102
@@ -2891,6 +4107,7 @@
     "rank": "V-153",
     "category": "Verb",
     "word": "schließen",
+    "synonym": "",
     "prep": "aus",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2901,7 +4118,14 @@
     "question_structure": "Woraus? • Daraus",
     "other_prepositions": "",
     "grammar_notes": "Logical deduction based on evidence.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::aus",
+      "case::dat"
+    ],
     "raw_sentence_de": "Aus diesen Befunden schließt der Ermittler aus den genauen Tathergang.",
     "group": "schließen",
     "freq_rank": 103
@@ -2910,6 +4134,7 @@
     "rank": "V-154",
     "category": "Verb",
     "word": "sich sehnen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -2920,7 +4145,14 @@
     "question_structure": "Wonach? • Danach / Nach wem?",
     "other_prepositions": "",
     "grammar_notes": "Deep emotional longing. Always 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Im kalten und dunklen Winter sehnt er sich nach Wärme und Licht.",
     "group": "sich sehnen",
     "freq_rank": 104
@@ -2929,6 +4161,7 @@
     "rank": "V-155",
     "category": "Verb",
     "word": "siegen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2939,7 +4172,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "",
     "grammar_notes": "Victory over an adversary or difficulty.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Am Ende siegte die Gerechtigkeit über die Willkür.",
     "group": "siegen",
     "freq_rank": 105
@@ -2948,6 +4188,7 @@
     "rank": "V-156",
     "category": "Verb",
     "word": "stimmen",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2958,7 +4199,14 @@
     "question_structure": "Wogegen? • Dagegen / Gegen wen?",
     "other_prepositions": "• <b>stimmen + für + Akk.</b>: to vote in favor of",
     "grammar_notes": "Democratic ballot/vote against.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Nur zwei Parteimitglieder stimmten gegen den Beschluss.",
     "group": "stimmen",
     "freq_rank": 106
@@ -2967,6 +4215,7 @@
     "rank": "V-157",
     "category": "Verb",
     "word": "stimmen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2977,7 +4226,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>stimmen + gegen + Akk.</b>: to vote against",
     "grammar_notes": "Democratic ballot/vote in favor.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Abgeordneten stimmten mit großer Mehrheit für den Gesetzentwurf.",
     "group": "stimmen",
     "freq_rank": 106
@@ -2986,6 +4242,7 @@
     "rank": "V-158",
     "category": "Verb",
     "word": "streiten",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -2996,7 +4253,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>streiten + mit + Dat.</b>: to argue with (a person)<br>• <b>streiten + um + Akk.</b>: to dispute over / to contest (property, possession)",
     "grammar_notes": "Topic of the dispute takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Politiker streiten leidenschaftlich über die richtige Steuerreform.",
     "group": "streiten",
     "freq_rank": 107
@@ -3005,6 +4269,7 @@
     "rank": "V-159",
     "category": "Verb",
     "word": "streiten",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3015,7 +4280,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "• <b>streiten + über + Akk.</b>: to argue / quarrel about (a topic)<br>• <b>streiten + um + Akk.</b>: to dispute over / to contest (property, possession)",
     "grammar_notes": "Opponent in the dispute takes 'mit + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "A2",
+    "tags": [
+      "level::A2",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich habe keine Lust, mich ständig mit dir zu streiten.",
     "group": "streiten",
     "freq_rank": 107
@@ -3024,6 +4296,7 @@
     "rank": "V-160",
     "category": "Verb",
     "word": "streiten",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3034,7 +4307,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "• <b>streiten + über + Akk.</b>: to argue / quarrel about (a topic)<br>• <b>streiten + mit + Dat.</b>: to argue with (a person)",
     "grammar_notes": "Contesting ownership or control of an asset.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die zerstrittenen Geschwister streiten um das Erbe der Eltern.",
     "group": "streiten",
     "freq_rank": 107
@@ -3043,6 +4323,7 @@
     "rank": "V-161",
     "category": "Verb",
     "word": "taugen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3053,7 +4334,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Suitability or utility: 'taugen zu + Dat'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Dieses alte, stumpfe Messer taugt nicht mehr zu Schneiden von Fleisch.",
     "group": "taugen",
     "freq_rank": 108
@@ -3062,6 +4350,7 @@
     "rank": "V-162",
     "category": "Verb",
     "word": "überreden",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3072,7 +4361,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) zu etwas (Dat) überreden.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie überredete ihren Freund zu einem gemeinsamen Tanzkurs.",
     "group": "überreden",
     "freq_rank": 109
@@ -3081,6 +4377,7 @@
     "rank": "V-163",
     "category": "Verb",
     "word": "urteilen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3091,7 +4388,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "• <b>urteilen + über + Akk.</b>: to pass judgment on / to judge",
     "grammar_notes": "The criteria or basis of judgment takes 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Man darf Personen niemals nur nach ihrem äußeren Anschein beurteilen.",
     "group": "urteilen",
     "freq_rank": 110
@@ -3100,6 +4404,7 @@
     "rank": "V-164",
     "category": "Verb",
     "word": "urteilen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3110,7 +4415,14 @@
     "question_structure": "Worüber? • Darüber / Über wen?",
     "other_prepositions": "• <b>urteilen + nach + Dat.</b>: to judge according to / by",
     "grammar_notes": "Making an evaluation or moral assessment.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Niemand sollte vorschnell über andere Menschen urteilen.",
     "group": "urteilen",
     "freq_rank": 110
@@ -3119,6 +4431,7 @@
     "rank": "V-165",
     "category": "Verb",
     "word": "verführen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3129,7 +4442,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Tempting someone to do something unwise or illicit.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die ständigen Sonderangebote verführten ihn zu unnötigen Ausgaben.",
     "group": "verführen",
     "freq_rank": 111
@@ -3138,6 +4458,7 @@
     "rank": "V-166",
     "category": "Verb",
     "word": "verhandeln",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3148,7 +4469,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>verhandeln + mit + Dat.</b>: to negotiate with (a party, representative)",
     "grammar_notes": "Negotiation topic takes 'über + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Gewerkschaft verhandelt derzeit über eine spürbare Lohnerhöhung.",
     "group": "verhandeln",
     "freq_rank": 112
@@ -3157,6 +4485,7 @@
     "rank": "V-167",
     "category": "Verb",
     "word": "verhandeln",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3167,7 +4496,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "• <b>verhandeln + über + Akk.</b>: to negotiate about (wages, conditions)",
     "grammar_notes": "Negotiation partner takes 'mit + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Firmenleitung verhandelt direkt mit dem Betriebsrat.",
     "group": "verhandeln",
     "freq_rank": 112
@@ -3176,6 +4512,7 @@
     "rank": "V-168",
     "category": "Verb",
     "word": "verlangen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3186,7 +4523,14 @@
     "question_structure": "Wonach? • Danach / Nach wem?",
     "other_prepositions": "",
     "grammar_notes": "Strong physical or psychological craving. Always 'nach + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Nach stundenlanger Wanderung in der Hitze verlangte sein Körper nach kaltem Wasser.",
     "group": "verlangen",
     "freq_rank": 113
@@ -3195,6 +4539,7 @@
     "rank": "V-169",
     "category": "Verb",
     "word": "verstoßen",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3205,7 +4550,14 @@
     "question_structure": "Wogegen? • Dagegen",
     "other_prepositions": "",
     "grammar_notes": "Breaching rules or ethical codes. Always 'gegen + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Dieses illegale Verhalten verstößt eindeutig gegen geltendes Recht.",
     "group": "verstoßen",
     "freq_rank": 114
@@ -3214,6 +4566,7 @@
     "rank": "V-170",
     "category": "Verb",
     "word": "sich vertiefen",
+    "synonym": "",
     "prep": "in",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3224,7 +4577,14 @@
     "question_structure": "Worin? • Darin",
     "other_prepositions": "",
     "grammar_notes": "Total absorption in study or reading. Takes 'in + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::in",
+      "case::akk"
+    ],
     "raw_sentence_de": "Sie vertiefte sich völlig in das fesselnde Geschichtsbuch.",
     "group": "sich vertiefen",
     "freq_rank": 115
@@ -3233,6 +4593,7 @@
     "rank": "V-171",
     "category": "Verb",
     "word": "wählen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3243,7 +4604,14 @@
     "question_structure": "Wozu? • Dazu / Zu wem?",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) zu etwas (Dat) wählen.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Mitglieder wählten sie einstimmig zu neuen Vorsitzenden.",
     "group": "wählen",
     "freq_rank": 116
@@ -3252,6 +4620,7 @@
     "rank": "V-172",
     "category": "Verb",
     "word": "sich wenden",
+    "synonym": "",
     "prep": "gegen",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3262,7 +4631,14 @@
     "question_structure": "Wogegen? • Dagegen / Gegen wen?",
     "other_prepositions": "• <b>sich wenden + an + Akk.</b>: to turn to / to consult / to contact",
     "grammar_notes": "Taking an adversarial stance against someone/something.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::gegen",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die öffentliche Kritik wendet sich nun scharf gegen die Entscheidungsträger.",
     "group": "sich wenden",
     "freq_rank": 117
@@ -3271,6 +4647,7 @@
     "rank": "V-173",
     "category": "Verb",
     "word": "sich wenden",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3281,7 +4658,14 @@
     "question_structure": "An wen?",
     "other_prepositions": "• <b>sich wenden + gegen + Akk.</b>: to turn against / to oppose",
     "grammar_notes": "Seeking assistance or counsel from someone.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Bei rechtlichen Fragen sollten Sie sich sofort an einen Fachanwalt wenden.",
     "group": "sich wenden",
     "freq_rank": 117
@@ -3290,6 +4674,7 @@
     "rank": "V-174",
     "category": "Verb",
     "word": "werben",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3300,7 +4685,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>werben + um + Akk.</b>: to court / to solicit / to vie for",
     "grammar_notes": "Commercial promotion or advocating an idea.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Das Unternehmen wirbt intensiv für seine neue Produktlinie.",
     "group": "werben",
     "freq_rank": 118
@@ -3309,6 +4701,7 @@
     "rank": "V-175",
     "category": "Verb",
     "word": "werben",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3319,7 +4712,14 @@
     "question_structure": "Worum? • Darum / Um wen?",
     "other_prepositions": "• <b>werben + für + Akk.</b>: to advertise / to promote / to campaign for",
     "grammar_notes": "Wooing or courting favor/people.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Internationale Universitäten werben eifrig um talentierte Nachwuchsforscher.",
     "group": "werben",
     "freq_rank": 118
@@ -3328,6 +4728,7 @@
     "rank": "V-176",
     "category": "Verb",
     "word": "wirken",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3338,7 +4739,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "",
     "grammar_notes": "Psychological or physical effect on someone.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die sanfte Melodie wirkt überaus beruhigend auf gestresste Gemüter.",
     "group": "wirken",
     "freq_rank": 119
@@ -3347,6 +4755,7 @@
     "rank": "V-177",
     "category": "Verb",
     "word": "zählen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3357,7 +4766,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "• <b>zählen + auf + Akk.</b>: to count on / to rely on",
     "grammar_notes": "Category membership or prestige ranking.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Diese Entdeckung zählt zweifellos zu den größten Meilensteinen der Medizin.",
     "group": "zählen",
     "freq_rank": 120
@@ -3366,6 +4782,7 @@
     "rank": "V-178",
     "category": "Verb",
     "word": "zählen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3376,7 +4793,14 @@
     "question_structure": "Worauf? • Darauf / Auf wen?",
     "other_prepositions": "• <b>zählen + zu + Dat.</b>: to count among / to rank among",
     "grammar_notes": "Synonymous with 'sich verlassen auf + Akk'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "In schwierigen Zeiten kann ich mich immer auf meine treuen Freunde verlassen und auf sie zählen.",
     "group": "zählen",
     "freq_rank": 120
@@ -3385,6 +4809,7 @@
     "rank": "V-179",
     "category": "Verb",
     "word": "zögern",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3395,7 +4820,14 @@
     "question_structure": "Womit? • Damit",
     "other_prepositions": "",
     "grammar_notes": "Polite business correspondence: 'Zögern Sie nicht mit...' or infinitive clause.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Bitte zögern Sie nicht mit Ihrer Rückmeldung!",
     "group": "zögern",
     "freq_rank": 121
@@ -3404,6 +4836,7 @@
     "rank": "V-180",
     "category": "Verb",
     "word": "zurückführen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3414,7 +4847,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: 'etwas (Akk) zurückführen auf + Akk'. Causal attribution.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Experten führen den Kursabsturz auf weltweite Unsicherheiten zurück.",
     "group": "zurückführen",
     "freq_rank": 122
@@ -3423,6 +4863,7 @@
     "rank": "V-181",
     "category": "Verb",
     "word": "ausmachen",
+    "synonym": "",
     "prep": "mit",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3433,7 +4874,14 @@
     "question_structure": "Mit wem?",
     "other_prepositions": "",
     "grammar_notes": "Mutual agreement or arrangement.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::mit",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ich habe den genauen Liefertermin mit dem Spediteur ausgemacht.",
     "group": "ausmachen",
     "freq_rank": 123
@@ -3442,6 +4890,7 @@
     "rank": "V-182",
     "category": "Verb",
     "word": "bürgen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3452,7 +4901,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "",
     "grammar_notes": "Legal or personal guarantee.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der wohlhabende Onkel bürgt für den Bankkredit seines Neffen.",
     "group": "bürgen",
     "freq_rank": 124
@@ -3461,6 +4917,7 @@
     "rank": "V-183",
     "category": "Verb",
     "word": "dienen",
+    "synonym": "",
     "prep": "als",
     "case": "+ Nom.",
     "case_type": "nom",
@@ -3471,7 +4928,14 @@
     "question_structure": "Als was?",
     "other_prepositions": "• <b>dienen + zu + Dat.</b>: to serve for / to be used for (purpose)",
     "grammar_notes": "'Als' takes Nominative agreeing with the subject.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::als",
+      "case::nom"
+    ],
     "raw_sentence_de": "Das bequeme Sofa dient nachts als gemütliches Gästebett.",
     "group": "dienen",
     "freq_rank": 125
@@ -3480,6 +4944,7 @@
     "rank": "V-184",
     "category": "Verb",
     "word": "dienen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3490,7 +4955,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "• <b>dienen + als + Nom.</b>: to serve as (a role or substitute)",
     "grammar_notes": "Designated functional purpose.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Dieses spezielle Werkzeug dient zu schnellen Öffnen von Dosen.",
     "group": "dienen",
     "freq_rank": 125
@@ -3499,6 +4971,7 @@
     "rank": "V-185",
     "category": "Verb",
     "word": "sich eignen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3509,7 +4982,14 @@
     "question_structure": "Wofür? • Dafür / Für wen?",
     "other_prepositions": "• <b>sich eignen + zu + Dat.</b>: to be suitable for (an action or function)",
     "grammar_notes": "Target audience suitability.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Dieses spannende Buch eignet sich hervorragend für Sprachanfänger.",
     "group": "sich eignen",
     "freq_rank": 126
@@ -3518,6 +4998,7 @@
     "rank": "V-186",
     "category": "Verb",
     "word": "sich eignen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3528,7 +5009,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "• <b>sich eignen + für + Akk.</b>: to be suitable for (a target audience or role)",
     "grammar_notes": "Task or utility suitability (often nominalized verbs: zum Kochen, zum Bau).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das robuste Holz eignet sich bestens zu Bau von Gartenmöbeln.",
     "group": "sich eignen",
     "freq_rank": 126
@@ -3537,6 +5025,7 @@
     "rank": "V-187",
     "category": "Verb",
     "word": "sich ekeln",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3547,7 +5036,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "",
     "grammar_notes": "Always 'vor + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er ekelt sich furchtbar vor kriechenden Würmern.",
     "group": "sich ekeln",
     "freq_rank": 127
@@ -3556,6 +5052,7 @@
     "rank": "V-188",
     "category": "Verb",
     "word": "feilschen",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3566,7 +5063,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "",
     "grammar_notes": "Price negotiation. Takes 'um + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Auf dem bunten Trödelmarkt feilscht man gern um jeden einzelnen Euro.",
     "group": "feilschen",
     "freq_rank": 128
@@ -3575,6 +5079,7 @@
     "rank": "V-189",
     "category": "Verb",
     "word": "fliehen",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3585,7 +5090,14 @@
     "question_structure": "Wovor? • Davor / Vor wem?",
     "other_prepositions": "",
     "grammar_notes": "Escape from danger: 'vor + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Tausende Menschen flohen vor den verheerenden Flammen des Waldbrands.",
     "group": "fliehen",
     "freq_rank": 129
@@ -3594,6 +5106,7 @@
     "rank": "V-190",
     "category": "Verb",
     "word": "geraten",
+    "synonym": "",
     "prep": "in",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3604,7 +5117,14 @@
     "question_structure": "Worin? • Darin",
     "other_prepositions": "",
     "grammar_notes": "Unintentionally entering a difficult state (in Panik geraten, in Wut geraten). Takes Akkusativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::in",
+      "case::akk"
+    ],
     "raw_sentence_de": "Das Unternehmen geriet durch Fehlinvestitionen in große finanzielle Not.",
     "group": "geraten",
     "freq_rank": 130
@@ -3613,6 +5133,7 @@
     "rank": "V-191",
     "category": "Verb",
     "word": "hindern",
+    "synonym": "",
     "prep": "an",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3623,7 +5144,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) an etwas (Dat) hindern.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::an",
+      "case::dat"
+    ],
     "raw_sentence_de": "Starker Nebel hinderte die Piloten an einem sicheren Landeanflug.",
     "group": "hindern",
     "freq_rank": 131
@@ -3632,6 +5160,7 @@
     "rank": "V-192",
     "category": "Verb",
     "word": "sich schämen",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3642,7 +5171,14 @@
     "question_structure": "Vor wem?",
     "other_prepositions": "• <b>sich schämen + für + Akk.</b>: to be ashamed of (an action or behavior)",
     "grammar_notes": "Person in whose presence one feels ashamed takes 'vor + Dativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Mädchen schämte sich vor den fremden Gästen und versteckte sich.",
     "group": "sich schämen",
     "freq_rank": 132
@@ -3651,6 +5187,7 @@
     "rank": "V-193",
     "category": "Verb",
     "word": "sich schämen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3661,7 +5198,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "• <b>sich schämen + vor + Dat.</b>: to be ashamed in front of (a person)",
     "grammar_notes": "Reason for shame takes 'für + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Er schämte sich zutiefst für seine ungehobelten Worte.",
     "group": "sich schämen",
     "freq_rank": 132
@@ -3670,6 +5214,7 @@
     "rank": "V-194",
     "category": "Verb",
     "word": "beruhen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3680,7 +5225,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Takes Dativ (unlike 'hoffen auf' or 'warten auf'!). Formal and academic.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::auf",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die wissenschaftliche These beruht auf verlässlichen Experimenten.",
     "group": "beruhen",
     "freq_rank": 133
@@ -3689,6 +5241,7 @@
     "rank": "V-195",
     "category": "Verb",
     "word": "basieren",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3699,7 +5252,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Takes Dativ ('auf + Dat'). Very common in journalism and academia.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::auf",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der erfolgreiche Film basiert auf einer wahren Begebenheit.",
     "group": "basieren",
     "freq_rank": 134
@@ -3708,6 +5268,7 @@
     "rank": "V-196",
     "category": "Verb",
     "word": "anknüpfen",
+    "synonym": "",
     "prep": "an",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3718,7 +5279,14 @@
     "question_structure": "Woran? • Daran",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: an|knüpfen an + Akk.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::an",
+      "case::akk"
+    ],
     "raw_sentence_de": "Wir möchten heute direkt an die Diskussion der letzten Woche anknüpfen.",
     "group": "anknüpfen",
     "freq_rank": 135
@@ -3727,6 +5295,7 @@
     "rank": "V-197",
     "category": "Verb",
     "word": "abstimmen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3737,7 +5306,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "• <b>abstimmen + über + Akk.</b>: to vote on (a motion or proposal)",
     "grammar_notes": "Harmonizing or tailoring one element to another.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Das Vier-Gänge-Menü ist exakt auf die erlesenen Weine abgestimmt.",
     "group": "abstimmen",
     "freq_rank": 136
@@ -3746,6 +5322,7 @@
     "rank": "V-198",
     "category": "Verb",
     "word": "abstimmen",
+    "synonym": "",
     "prep": "über",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3756,7 +5333,14 @@
     "question_structure": "Worüber? • Darüber",
     "other_prepositions": "• <b>abstimmen + auf + Akk.</b>: to coordinate / tune / tailor to",
     "grammar_notes": "Voting procedure.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::über",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Vereinsmitglieder stimmen heute über den neuen Mitgliedsbeitrag ab.",
     "group": "abstimmen",
     "freq_rank": 136
@@ -3765,6 +5349,7 @@
     "rank": "V-199",
     "category": "Verb",
     "word": "anregen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3775,7 +5360,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Incentivizing thought or action (anregen zum Nachdenken).",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das nachdenkliche Theaterstück regte die Zuschauer zu langen Diskussionen an.",
     "group": "anregen",
     "freq_rank": 137
@@ -3784,6 +5376,7 @@
     "rank": "V-200",
     "category": "Verb",
     "word": "auffordern",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3794,7 +5387,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) zu etwas (Dat) auffordern.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Die Flugbegleiterin forderte die Passagiere zu Anschnallen auf.",
     "group": "auffordern",
     "freq_rank": 138
@@ -3803,6 +5403,7 @@
     "rank": "V-201",
     "category": "Verb",
     "word": "beharren",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3813,7 +5414,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Takes Dativ ('auf + Dat'). Connotes obstinacy or unwavering persistence.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::auf",
+      "case::dat"
+    ],
     "raw_sentence_de": "Er beharrte stur auf seiner einmal gefassten Meinung.",
     "group": "beharren",
     "freq_rank": 139
@@ -3822,6 +5430,7 @@
     "rank": "V-202",
     "category": "Verb",
     "word": "beneiden",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3832,7 +5441,14 @@
     "question_structure": "Worum? • Darum / Um wen?",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) um etwas (Akk) beneiden.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Viele seiner Kollegen beneiden ihn um seine beneidenswerte Gelassenheit.",
     "group": "beneiden",
     "freq_rank": 140
@@ -3841,6 +5457,7 @@
     "rank": "V-203",
     "category": "Verb",
     "word": "drängen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3851,7 +5468,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Urgency and pressure. Takes 'auf + Akkusativ'.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die Kunden drängen ungeduldig auf eine rasche Behebung der Störung.",
     "group": "drängen",
     "freq_rank": 141
@@ -3860,6 +5484,7 @@
     "rank": "V-204",
     "category": "Verb",
     "word": "wetteifern",
+    "synonym": "",
     "prep": "um",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3870,7 +5495,14 @@
     "question_structure": "Worum? • Darum",
     "other_prepositions": "",
     "grammar_notes": "Elevated vocabulary for fierce competition over an accolade.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "C1",
+    "tags": [
+      "level::C1",
+      "category::verb",
+      "prep::um",
+      "case::akk"
+    ],
     "raw_sentence_de": "Die begabten Athleten wetteifern ehrgeizig um den ersten Platz.",
     "group": "wetteifern",
     "freq_rank": 142
@@ -3879,6 +5511,7 @@
     "rank": "V-205",
     "category": "Verb",
     "word": "zulassen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3889,7 +5522,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Official admission or licensing.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Nach Prüfung der Unterlagen wurde sie zu den Staatsprüfungen zugelassen.",
     "group": "zulassen",
     "freq_rank": 143
@@ -3898,6 +5538,7 @@
     "rank": "V-206",
     "category": "Verb",
     "word": "zurückschrecken",
+    "synonym": "",
     "prep": "vor",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3908,7 +5549,14 @@
     "question_structure": "Wovor? • Davor",
     "other_prepositions": "",
     "grammar_notes": "Hesitating or shrinking from daunting tasks.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::vor",
+      "case::dat"
+    ],
     "raw_sentence_de": "Ein entschlossener Bergsteiger schreckt nicht vor großen Gefahren zurück.",
     "group": "zurückschrecken",
     "freq_rank": 144
@@ -3917,6 +5565,7 @@
     "rank": "V-207",
     "category": "Verb",
     "word": "abhalten",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3927,7 +5576,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) von etwas (Dat) abhalten.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Nichts auf der Welt konnte ihn von seinen ehrgeizigen Plänen abhalten.",
     "group": "abhalten",
     "freq_rank": 145
@@ -3936,6 +5592,7 @@
     "rank": "V-208",
     "category": "Verb",
     "word": "aufrufen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -3946,7 +5603,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Public appeal or mobilization.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Der Bürgermeister rief die Bürger zu gegenseitiger Solidarität auf.",
     "group": "aufrufen",
     "freq_rank": 146
@@ -3955,6 +5619,7 @@
     "rank": "V-209",
     "category": "Verb",
     "word": "sich berufen",
+    "synonym": "",
     "prep": "auf",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3965,7 +5630,14 @@
     "question_structure": "Worauf? • Darauf",
     "other_prepositions": "",
     "grammar_notes": "Legal or formal citation of authority or rights. Takes Akkusativ.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::auf",
+      "case::akk"
+    ],
     "raw_sentence_de": "Der Angeklagte berief sich vor Gericht auf sein Recht zu schweigen.",
     "group": "sich berufen",
     "freq_rank": 147
@@ -3974,6 +5646,7 @@
     "rank": "V-210",
     "category": "Verb",
     "word": "sich einmischen",
+    "synonym": "",
     "prep": "in",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -3984,7 +5657,14 @@
     "question_structure": "Worin? • Darin",
     "other_prepositions": "",
     "grammar_notes": "Separable reflexive verb: sich ein|mischen in + Akk.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::in",
+      "case::akk"
+    ],
     "raw_sentence_de": "Bitte mische dich nicht ungefragt in meine privaten Angelegenheiten ein!",
     "group": "sich einmischen",
     "freq_rank": 148
@@ -3993,6 +5673,7 @@
     "rank": "V-211",
     "category": "Verb",
     "word": "greifen",
+    "synonym": "",
     "prep": "nach",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -4003,7 +5684,14 @@
     "question_structure": "Wonach? • Danach",
     "other_prepositions": "• <b>greifen + zu + Dat.</b>: to resort to / to reach for (measures, remedies)",
     "grammar_notes": "Physical reach towards an object.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::nach",
+      "case::dat"
+    ],
     "raw_sentence_de": "Das Kleinkind griff neugierig nach der glänzenden Tasse.",
     "group": "greifen",
     "freq_rank": 149
@@ -4012,6 +5700,7 @@
     "rank": "V-212",
     "category": "Verb",
     "word": "greifen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -4022,7 +5711,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "• <b>greifen + nach + Dat.</b>: to reach for / to grasp at",
     "grammar_notes": "Choosing a remedy or extreme measure.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "In seiner Verzweiflung griff er zu unkonventionellen Mitteln.",
     "group": "greifen",
     "freq_rank": 149
@@ -4031,6 +5727,7 @@
     "rank": "V-213",
     "category": "Verb",
     "word": "haften",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -4041,7 +5738,14 @@
     "question_structure": "Wofür? • Dafür",
     "other_prepositions": "",
     "grammar_notes": "Classic legal warning phrase in Germany ('Eltern haften für ihre Kinder').",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Eltern haften bekanntlich für die Schäden ihrer minderjährigen Kinder.",
     "group": "haften",
     "freq_rank": 150
@@ -4050,6 +5754,7 @@
     "rank": "V-214",
     "category": "Verb",
     "word": "neigen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -4060,7 +5765,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Disposition or behavioral tendency.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Unter starkem Stress neigt er leider zu voreiligen Kurzschlusshandlungen.",
     "group": "neigen",
     "freq_rank": 151
@@ -4069,6 +5781,7 @@
     "rank": "V-215",
     "category": "Verb",
     "word": "schwärmen",
+    "synonym": "",
     "prep": "für",
     "case": "+ Akk.",
     "case_type": "akk",
@@ -4079,7 +5792,14 @@
     "question_structure": "Für wen? / Wofür?",
     "other_prepositions": "• <b>schwärmen + von + Dat.</b>: to rave about / to swoon over",
     "grammar_notes": "Romantic infatuation or fandom.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::für",
+      "case::akk"
+    ],
     "raw_sentence_de": "Als Teenager schwärmte sie heimlich für einen berühmten Popstar.",
     "group": "schwärmen",
     "freq_rank": 152
@@ -4088,6 +5808,7 @@
     "rank": "V-216",
     "category": "Verb",
     "word": "schwärmen",
+    "synonym": "",
     "prep": "von",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -4098,7 +5819,14 @@
     "question_structure": "Wovon? • Davon",
     "other_prepositions": "• <b>schwärmen + für + Akk.</b>: to have a crush on / to be fond of / to adore",
     "grammar_notes": "Enthusiastic praise or recounting.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B1",
+    "tags": [
+      "level::B1",
+      "category::verb",
+      "prep::von",
+      "case::dat"
+    ],
     "raw_sentence_de": "Sie schwärmt unaufhörlich von den kulinarischen Genüssen in Rom.",
     "group": "schwärmen",
     "freq_rank": 152
@@ -4107,6 +5835,7 @@
     "rank": "V-217",
     "category": "Verb",
     "word": "übergehen",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -4117,7 +5846,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Separable verb: 'über|gehen zu + Dat' in meetings and presentations.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Lassen Sie uns nun zu dem nächsten Tagesordnungspunkt übergehen.",
     "group": "übergehen",
     "freq_rank": 153
@@ -4126,6 +5862,7 @@
     "rank": "V-218",
     "category": "Verb",
     "word": "verleiten",
+    "synonym": "",
     "prep": "zu",
     "case": "+ Dat.",
     "case_type": "dat",
@@ -4136,7 +5873,14 @@
     "question_structure": "Wozu? • Dazu",
     "other_prepositions": "",
     "grammar_notes": "Formula: jemanden (Akk) zu etwas (Dat) verleiten.",
+    "prompt_text": "What is the <b>preposition</b> and <b>case</b>?",
     "level": "B2",
+    "tags": [
+      "level::B2",
+      "category::verb",
+      "prep::zu",
+      "case::dat"
+    ],
     "raw_sentence_de": "Schlechte Vorbilder verleiteten den Jungen zu gefährlichen Mutproben.",
     "group": "verleiten",
     "freq_rank": 154
