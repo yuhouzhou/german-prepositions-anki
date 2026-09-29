@@ -710,9 +710,9 @@
     "case": "+ Dat.",
     "case_type": "dat",
     "meaning_en": "distrust towards / suspicion of",
-    "sentence_cloze": "Sein tiefes Misstrauen <span class=\"blank\">[ &hellip; ]</span> fremden Personen gegenüber war spürbar.",
-    "sentence_full": "Sein tiefes Misstrauen <span class=\"highlight-prep\">gegenüber</span> fremden Personen gegenüber war spürbar.",
-    "sentence_en": "His deep distrust towards strangers was palpable.",
+    "sentence_cloze": "Sein tiefes Misstrauen <span class=\"blank\">[ &hellip; ]</span> fremden Personen war für alle spürbar.",
+    "sentence_full": "Sein tiefes Misstrauen <span class=\"highlight-prep\">gegenüber</span> fremden Personen war für alle spürbar.",
+    "sentence_en": "His deep distrust towards strangers was palpable to everyone.",
     "question_structure": "Gegenüber wem?",
     "other_prepositions": "",
     "grammar_notes": "Takes 'gegenüber + Dativ'.",
@@ -724,7 +724,7 @@
       "prep::gegenüber",
       "case::dat"
     ],
-    "raw_sentence_de": "Sein tiefes Misstrauen gegenüber fremden Personen gegenüber war spürbar.",
+    "raw_sentence_de": "Sein tiefes Misstrauen gegenüber fremden Personen war für alle spürbar.",
     "group": "Misstrauen",
     "freq_rank": 22
   },
