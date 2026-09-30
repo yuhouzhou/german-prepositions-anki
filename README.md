@@ -1,4 +1,9 @@
-# German Prepositions Master Suite (Präpositionen im Deutschen) 🇩🇪
+# 🇩🇪 German Prepositions Master Suite (Präpositionen im Deutschen)
+
+[![Release](https://img.shields.io/github/v/release/yuhouzhou/german-prepositions-anki?color=blue&label=Release)](https://github.com/yuhouzhou/german-prepositions-anki/releases/latest)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Anki](https://img.shields.io/badge/Anki-Ready-success.svg)](https://apps.ankiweb.net/)
 
 A comprehensive, frequency-sorted Anki flashcard suite covering **439 essential German preposition combinations** across CEFR levels **A1 to C1**.
 
@@ -11,6 +16,16 @@ German::Prepositions (439 Cards Total)
 ├── 03 - Nouns with Prepositions (68 cards, sorted N-001 to N-068)
 └── 04 - Noun-Verb Idioms (51 cards, sorted I-001 to I-051)
 ```
+
+### 📥 Direct Downloads ([v1.0.0 Release](https://github.com/yuhouzhou/german-prepositions-anki/releases/tag/v1.0.0))
+
+| Deck Package | Content | Cards | Direct Download |
+| :--- | :--- | :--- | :--- |
+| **Master Suite** | **All 4 Subdecks Combined** | **439** | [⬇️ Download .apkg (408 KB)](https://github.com/yuhouzhou/german-prepositions-anki/releases/download/v1.0.0/German_Prepositions_Master_Deck.apkg) |
+| **01. Verbs with Prepositions** | Verbs + Preposition + Case | 218 | [⬇️ Download .apkg (212 KB)](https://github.com/yuhouzhou/german-prepositions-anki/releases/download/v1.0.0/German_Verbs_with_Prepositions.apkg) |
+| **02. Adjectives with Prepositions** | Adjectives/Adverbs + Prep + Case | 102 | [⬇️ Download .apkg (132 KB)](https://github.com/yuhouzhou/german-prepositions-anki/releases/download/v1.0.0/German_Adjectives_with_Prepositions.apkg) |
+| **03. Nouns with Prepositions** | Nouns + Preposition + Case | 68 | [⬇️ Download .apkg (108 KB)](https://github.com/yuhouzhou/german-prepositions-anki/releases/download/v1.0.0/German_Nouns_with_Prepositions.apkg) |
+| **04. Noun-Verb Idioms** | Nomen-Verb-Verbindungen (NVR) | 51 | [⬇️ Download .apkg (100 KB)](https://github.com/yuhouzhou/german-prepositions-anki/releases/download/v1.0.0/German_Noun_Verb_Idioms.apkg) |
 
 ---
 
@@ -72,7 +87,7 @@ Every note is annotated with hierarchical Anki tags for instant Custom Study / F
   - Equivalent simple verb synonym (e.g., `= möglich sein / denkbar sein`).
   - English translation (e.g., *to be possible / out of the question*).
   - Sentence cloze masking the **preposition and noun phrase**:
-    ```
+    ```text
     "Ein weiterer Aufschub des Projekts kommt für uns keinesfalls [ ... ]."
     What is the prepositional phrase?
     ```
@@ -98,9 +113,18 @@ Every note is annotated with hierarchical Anki tags for instant Custom Study / F
 |---|---|
 | [**`German_Prepositions_Master_Deck.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Prepositions_Master_Deck.apkg) | **Master Anki Suite** (439 cards across 4 subdecks) |
 | [**`German_Verbs_with_Prepositions.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Verbs_with_Prepositions.apkg) | Verbs-only package (218 cards) |
+| [**`German_Adjectives_with_Prepositions.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Adjectives_with_Prepositions.apkg) | Adjectives-only package (102 cards) |
+| [**`German_Nouns_with_Prepositions.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Nouns_with_Prepositions.apkg) | Nouns-only package (68 cards) |
+| [**`German_Noun_Verb_Idioms.apkg`**](file:///Users/YuhouZhou/projects/german_verb_prep/German_Noun_Verb_Idioms.apkg) | Noun-Verb Idioms package (51 cards) |
 | [**`german_all_prepositions_combined.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_all_prepositions_combined.tsv) | Combined TSV for all 439 cards |
 | [**`german_verbs_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_verbs_with_prepositions.tsv) | Verbs TSV (218 rows) |
 | [**`german_adjectives_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_adjectives_with_prepositions.tsv) | Adjectives TSV (102 rows) |
 | [**`german_nouns_with_prepositions.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_nouns_with_prepositions.tsv) | Nouns TSV (68 rows) |
 | [**`german_noun_verb_idioms.tsv`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_noun_verb_idioms.tsv) | Noun-Verb Idioms TSV (51 rows) |
 | [**`german_all_prepositions_combined.json`**](file:///Users/YuhouZhou/projects/german_verb_prep/german_all_prepositions_combined.json) | Complete JSON dataset |
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](file:///Users/YuhouZhou/projects/german_verb_prep/LICENSE) file for details.

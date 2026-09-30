@@ -615,7 +615,7 @@ def create_anki_model():
 def prepare_verb_entries():
     groups = defaultdict(list)
     for item in RAW_VERB_DATA:
-        groups[item['verb_group']].append(item)
+        groups[item['verb']].append(item)
 
     sorted_raw = sorted(RAW_VERB_DATA, key=lambda x: (x['verb_rank'], x['verb_group'], x['meaning_en']))
 
@@ -636,8 +636,8 @@ def prepare_verb_entries():
         sentence_en = item['sentence_en']
 
         other_list = []
-        for sibling in groups[item['verb_group']]:
-            if (sibling['verb'], sibling['prep'], sibling['case']) != (verb, prep, case):
+        for sibling in groups[verb]:
+            if (sibling['prep'], sibling['case']) != (prep, case):
                 other_list.append(f"• <b>{sibling['verb']} + {sibling['prep']} {sibling['case']}</b>: {sibling['meaning_en']}")
 
         other_preps_html = "<br>".join(other_list) if other_list else ""
@@ -676,7 +676,7 @@ def prepare_verb_entries():
 def prepare_adjective_entries():
     groups = defaultdict(list)
     for item in RAW_ADJECTIVE_DATA:
-        groups[item['adj_group']].append(item)
+        groups[item['adjective']].append(item)
 
     sorted_raw = sorted(RAW_ADJECTIVE_DATA, key=lambda x: (x['adj_rank'], x['adj_group'], x['meaning_en']))
 
@@ -697,8 +697,8 @@ def prepare_adjective_entries():
         sentence_en = item['sentence_en']
 
         other_list = []
-        for sibling in groups[item['adj_group']]:
-            if (sibling['adjective'], sibling['prep'], sibling['case']) != (adjective, prep, case):
+        for sibling in groups[adjective]:
+            if (sibling['prep'], sibling['case']) != (prep, case):
                 other_list.append(f"• <b>{sibling['adjective']} + {sibling['prep']} {sibling['case']}</b>: {sibling['meaning_en']}")
 
         other_preps_html = "<br>".join(other_list) if other_list else ""
@@ -737,7 +737,7 @@ def prepare_adjective_entries():
 def prepare_noun_entries():
     groups = defaultdict(list)
     for item in RAW_NOUN_DATA:
-        groups[item['noun_group']].append(item)
+        groups[item['noun']].append(item)
 
     sorted_raw = sorted(RAW_NOUN_DATA, key=lambda x: (x['noun_rank'], x['noun_group'], x['meaning_en']))
 
@@ -758,8 +758,8 @@ def prepare_noun_entries():
         sentence_en = item['sentence_en']
 
         other_list = []
-        for sibling in groups[item['noun_group']]:
-            if (sibling['noun'], sibling['prep'], sibling['case']) != (noun, prep, case):
+        for sibling in groups[noun]:
+            if (sibling['prep'], sibling['case']) != (prep, case):
                 other_list.append(f"• <b>{sibling['noun']} + {sibling['prep']} {sibling['case']}</b>: {sibling['meaning_en']}")
 
         other_preps_html = "<br>".join(other_list) if other_list else ""
@@ -796,10 +796,6 @@ def prepare_noun_entries():
     return processed
 
 def prepare_idiom_entries():
-    groups = defaultdict(list)
-    for item in RAW_IDIOM_DATA:
-        groups[item['idiom_group']].append(item)
-
     sorted_raw = sorted(RAW_IDIOM_DATA, key=lambda x: (x['idiom_rank'], x['idiom_group'], x['meaning_en']))
 
     processed = []
@@ -820,12 +816,8 @@ def prepare_idiom_entries():
         sentence_full = item['sentence_de'].replace('{PHRASE}', f'<span class="highlight-prep">{phrase_cloze}</span>')
         sentence_en = item['sentence_en']
 
-        other_list = []
-        for sibling in groups[item['idiom_group']]:
-            if sibling['idiom'] != idiom:
-                other_list.append(f"• <b>{sibling['idiom']}</b> (= {sibling['simple_verb']}): {sibling['meaning_en']}")
-
-        other_preps_html = "<br>".join(other_list) if other_list else ""
+        # Idioms are fixed prepositional phrases; they do not have alternate prepositions
+        other_preps_html = ""
         tags = [
             f"level::{level}",
             "category::idiom",
@@ -884,15 +876,22 @@ def build_master_anki_deck(verb_entries, adj_entries, noun_entries, idiom_entrie
     add_notes(nouns_deck, noun_entries)
     add_notes(idioms_deck, idiom_entries)
 
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output')
+    os.makedirs(output_dir, exist_ok=True)
+
     master_package = genanki.Package([verbs_deck, adj_deck, nouns_deck, idioms_deck])
-    apkg_file = 'German_Prepositions_Master_Deck.apkg'
+    apkg_file = os.path.join(output_dir, 'German_Prepositions_Master_Deck.apkg')
     master_package.write_to_file(apkg_file)
 
-    # Legacy verbs-only package kept for convenience
-    genanki.Package(verbs_deck).write_to_file('German_Verbs_with_Prepositions.apkg')
+    # Individual packages for focused category study
+    genanki.Package(verbs_deck).write_to_file(os.path.join(output_dir, 'German_Verbs_with_Prepositions.apkg'))
+    genanki.Package(adj_deck).write_to_file(os.path.join(output_dir, 'German_Adjectives_with_Prepositions.apkg'))
+    genanki.Package(nouns_deck).write_to_file(os.path.join(output_dir, 'German_Nouns_with_Prepositions.apkg'))
+    genanki.Package(idioms_deck).write_to_file(os.path.join(output_dir, 'German_Noun_Verb_Idioms.apkg'))
 
     total_count = len(verb_entries) + len(adj_entries) + len(noun_entries) + len(idiom_entries)
     print(f"Generated Master Deck: {apkg_file} ({total_count} cards across 4 subdecks)")
+    print("Generated Individual Decks: Verbs, Adjectives, Nouns, Idioms in output/ (.apkg)")
     return apkg_file
 
 def export_all_tsv(verb_entries, adj_entries, noun_entries, idiom_entries):
